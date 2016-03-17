@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/CEMActivityViewController/*', 'Pod/Classes/CEMSocialPlatformManager/*'
-  s.resource = 'Pod/Resources/*.bundle'
+  s.resources = 'Pod/Resources/*.bundle'
 
   s.frameworks = 'UIKit', 'Foundation'
   s.dependency 'TencentOpenApiSDK/64bit', '~> 2.9.5'

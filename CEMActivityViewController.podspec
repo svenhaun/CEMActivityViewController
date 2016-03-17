@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = "https://github.com/svenhaun/CEMActivityViewController"
-  s.screenshot       = 'https://github.com/svenhaun/CEMActivityViewController/blob/master/Screenshot.png'
+# s.screenshot       = 'https://github.com/svenhaun/CEMActivityViewController/blob/master/Screenshot.png'
   s.license          = 'MIT'
   s.author           = { "svenhaun" => "svenhaun@126.com" }
   s.source           = { :git => "https://github.com/svenhaun/CEMActivityViewController.git", :tag => s.version.to_s }
@@ -25,13 +25,13 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Classes/**/*.{h,m}'
+  s.source_files = 'Pod/Classes/**/*.{h,m}'
 
 # s.resource_bundles = {
 #   'CEMActivityViewController' => ['Pod/Resources/*.png']
 # }
 
-  s.resource = 'Resources/Resource.bundle'
+  s.resource = 'Pod/Resources/*.bundle'
 
 #s.public_header_files = 'Pod/Classes/**/*.h'
 

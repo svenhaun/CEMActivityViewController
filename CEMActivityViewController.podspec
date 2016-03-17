@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/svenhaun/CEMActivityViewController"
   s.license          = 'MIT'
   s.author           = { "svenhaun" => "svenhaun@126.com" }
-  s.source           = { :git => "https://github.com/svenhaun/CEMActivityViewController.git", :tag => s.version_to_s }
+  s.source           = { :git => "https://github.com/svenhaun/CEMActivityViewController.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true

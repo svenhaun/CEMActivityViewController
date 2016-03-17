@@ -25,13 +25,13 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*.{h,m}'
+  s.source_files = 'Classes/**/*.{h,m}'
 
 # s.resource_bundles = {
 #   'CEMActivityViewController' => ['Pod/Resources/*.png']
 # }
 
-  s.resource = 'Pod/Resources/Resource.bundle'
+  s.resource = 'Resources/Resource.bundle'
 
 #s.public_header_files = 'Pod/Classes/**/*.h'
 

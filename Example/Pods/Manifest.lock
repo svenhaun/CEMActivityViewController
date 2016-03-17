@@ -1,0 +1,23 @@
+PODS:
+  - CEMActivityViewController (1.0.0):
+    - libWeChatSDK (~> 1.6)
+    - TencentOpenApiSDK/64bit (~> 2.9.5)
+    - WeiboSDK (~> 3.1.3)
+  - libWeChatSDK (1.6)
+  - TencentOpenApiSDK/64bit (2.9.5)
+  - WeiboSDK (3.1.3)
+
+DEPENDENCIES:
+  - CEMActivityViewController (from `../`)
+
+EXTERNAL SOURCES:
+  CEMActivityViewController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CEMActivityViewController: 3541b6f7232191b54683c66e696f73b5b14ee791
+  libWeChatSDK: 248280c10e6edd275e0efab54ac7ad42a62b6a57
+  TencentOpenApiSDK: a0d7716edd6eb438d65828168e8e5137301b436d
+  WeiboSDK: acb067053668102cf07d01aa7604350162c2e466
+
+COCOAPODS: 0.39.0

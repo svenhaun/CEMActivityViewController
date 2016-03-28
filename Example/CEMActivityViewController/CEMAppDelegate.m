@@ -15,6 +15,7 @@
 {
     // Override point for customization after application launch.
 //    [CEMSocialManager InitSocialManager];
+    [CEMSocialManager InitSocialManagerWithSocialConfigureSettings:nil];
     return YES;
 }
 

@@ -45,6 +45,7 @@
 		3B799C2B1CA907C8001C2496 /* CEMWeChatActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B799C091CA907C7001C2496 /* CEMWeChatActivity.m */; };
 		3B799C2C1CA907C8001C2496 /* CEMWeiboActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B799C0A1CA907C7001C2496 /* CEMWeiboActivity.h */; };
 		3B799C2D1CA907C8001C2496 /* CEMWeiboActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B799C0B1CA907C7001C2496 /* CEMWeiboActivity.m */; };
+		3B799C2F1CA90BF3001C2496 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B799C2E1CA90BF3001C2496 /* TencentOpenAPI.framework */; };
 		3BF0BC451CA53F0B00BC586A /* CEMSocialConfigure.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BF0BC441CA53F0B00BC586A /* CEMSocialConfigure.h */; };
 		4739CBB121721A47158EEF0501D49359 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */; };
 		81064B3CA33D82B69320126CF0328719 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 794117C312BEEBD8CAF7DCE018DEE7B0 /* TencentOpenApi_IOS_Bundle.bundle */; };
@@ -134,6 +135,7 @@
 		3B799C091CA907C7001C2496 /* CEMWeChatActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEMWeChatActivity.m; sourceTree = "<group>"; };
 		3B799C0A1CA907C7001C2496 /* CEMWeiboActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEMWeiboActivity.h; sourceTree = "<group>"; };
 		3B799C0B1CA907C7001C2496 /* CEMWeiboActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEMWeiboActivity.m; sourceTree = "<group>"; };
+		3B799C2E1CA90BF3001C2496 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = 64Bit/TencentOpenAPI.framework; sourceTree = "<group>"; };
 		3BF0BC441CA53F0B00BC586A /* CEMSocialConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEMSocialConfigure.h; sourceTree = "<group>"; };
 		4071144580B03199DC71F50AE18D2D4F /* Refresh@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "Refresh@2x.png"; sourceTree = "<group>"; };
 		41A88902592EB6CCEB329C269C69580E /* libPods-CEMActivityViewController_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CEMActivityViewController_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -173,7 +175,6 @@
 		C73B7B1119CAE4BD63C2F4729D29A3B9 /* safari@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "safari@2x.png"; sourceTree = "<group>"; };
 		CD88BDDE49CB3D2F0A36B3579747D222 /* WeiboUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeiboUser.h; path = libWeiboSDK/WeiboUser.h; sourceTree = "<group>"; };
 		CFECF3C22654719518F207D56F6E489A /* img_ss_local@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "img_ss_local@2x.png"; sourceTree = "<group>"; };
-		D447135DB490F17AF06D687491F3D753 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = 64Bit/TencentOpenAPI.framework; sourceTree = "<group>"; };
 		D6BC47F6EA75DF31F498F12FEDAD22B8 /* libCEMActivityViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCEMActivityViewController.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8F7BEFD26CBC72A2E88EFFD9AB47DEA /* libPods-CEMActivityViewController_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CEMActivityViewController_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9607497D6294443CEE9ED5C481680AC /* img_ss_privacy@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "img_ss_privacy@2x.png"; sourceTree = "<group>"; };
@@ -217,6 +218,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B799C2F1CA90BF3001C2496 /* TencentOpenAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,7 +257,7 @@
 		2A762B93609AA2B9E475C46A45F1D58B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D447135DB490F17AF06D687491F3D753 /* TencentOpenAPI.framework */,
+				3B799C2E1CA90BF3001C2496 /* TencentOpenAPI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -875,6 +877,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TencentOpenApiSDK/64Bit",
+				);
 				PRODUCT_NAME = TencentOpenAPI;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -961,6 +967,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TencentOpenApiSDK/64Bit",
+				);
 				PRODUCT_NAME = TencentOpenAPI;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;

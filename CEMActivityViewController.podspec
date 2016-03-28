@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "CEMActivityViewController"
-  s.version          = "1.0.0"
+  s.version          = "1.1.0"
   s.summary          = "Custom ActivityViewController on iOS"
 
   s.homepage         = "https://github.com/svenhaun/CEMActivityViewController"
@@ -13,6 +13,9 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Pod/Classes/**/*.{h,m}'
   s.resources = 'Pod/Resources/Resource.bundle/**/*.png'
+
+  s.public_header_files = 'Pod/Classes/CEMActivityViewController/Public/*.h'
+  s.private_header_files = 'Pod/Classes/CEMActivityViewController/Private/*.h'
 
   s.frameworks = 'UIKit', 'Foundation'
   s.dependency 'TencentOpenApiSDK/64bit', '~> 2.9.5'

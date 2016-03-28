@@ -58,10 +58,15 @@ install_resource()
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "../../Pod/Resources/Resource.bundle/img_ss_delete@2x.png"
   install_resource "../../Pod/Resources/Resource.bundle/img_ss_email@2x.png"
+  install_resource "../../Pod/Resources/Resource.bundle/img_ss_favorite@2x.png"
+  install_resource "../../Pod/Resources/Resource.bundle/img_ss_local@2x.png"
   install_resource "../../Pod/Resources/Resource.bundle/img_ss_message@2x.png"
+  install_resource "../../Pod/Resources/Resource.bundle/img_ss_privacy@2x.png"
   install_resource "../../Pod/Resources/Resource.bundle/img_ss_qq@2x.png"
   install_resource "../../Pod/Resources/Resource.bundle/img_ss_qqzone@2x.png"
+  install_resource "../../Pod/Resources/Resource.bundle/img_ss_report@2x.png"
   install_resource "../../Pod/Resources/Resource.bundle/img_ss_wb@2x.png"
   install_resource "../../Pod/Resources/Resource.bundle/img_ss_wechat@2x.png"
   install_resource "../../Pod/Resources/Resource.bundle/img_ss_wechat_friendcircle@2x.png"
@@ -71,10 +76,15 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${BUILT_PRODUCTS_DIR}/TencentOpenAPI.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "../../Pod/Resources/Resource.bundle/img_ss_delete@2x.png"
   install_resource "../../Pod/Resources/Resource.bundle/img_ss_email@2x.png"
+  install_resource "../../Pod/Resources/Resource.bundle/img_ss_favorite@2x.png"
+  install_resource "../../Pod/Resources/Resource.bundle/img_ss_local@2x.png"
   install_resource "../../Pod/Resources/Resource.bundle/img_ss_message@2x.png"
+  install_resource "../../Pod/Resources/Resource.bundle/img_ss_privacy@2x.png"
   install_resource "../../Pod/Resources/Resource.bundle/img_ss_qq@2x.png"
   install_resource "../../Pod/Resources/Resource.bundle/img_ss_qqzone@2x.png"
+  install_resource "../../Pod/Resources/Resource.bundle/img_ss_report@2x.png"
   install_resource "../../Pod/Resources/Resource.bundle/img_ss_wb@2x.png"
   install_resource "../../Pod/Resources/Resource.bundle/img_ss_wechat@2x.png"
   install_resource "../../Pod/Resources/Resource.bundle/img_ss_wechat_friendcircle@2x.png"

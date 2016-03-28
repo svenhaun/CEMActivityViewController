@@ -9,16 +9,13 @@
   },
   "source": {
     "git": "https://github.com/svenhaun/CEMActivityViewController.git",
-    "commit": "dcc942ee79ddda19a34de2aa466b26f1abd24fb3"
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "7.0"
   },
   "requires_arc": true,
-  "source_files": [
-    "Pod/Classes/CEMActivityViewController/*.{h,m}",
-    "Pod/Classes/CEMSocialPlatformManager/*.{h,m}"
-  ],
+  "source_files": "Pod/Classes/**/*.{h,m}",
   "resources": "Pod/Resources/Resource.bundle/**/*.png",
   "frameworks": [
     "UIKit",

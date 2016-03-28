@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'B5C837E21E52D05991261E4B'
+               BlueprintIdentifier = '95F7B730DEA2E3755F5EEC6F'
                BlueprintName = 'Pods-CEMActivityViewController_Tests'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-CEMActivityViewController_Tests.a'>

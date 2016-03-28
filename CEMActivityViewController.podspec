@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.source_files = 'Pod/Classes/**/*.{h,m}'
   s.resources = 'Pod/Resources/Resource.bundle/**/*.png'
 
-  s.public_header_files = 'Pod/Classes/CEMActivityViewController/Public/*.h'
+  s.public_header_files = 'Pod/Classes/CEMActivityViewController/Public/*.h', 'Pod/Classes/CEMActivityViewController/CEMSocialPlatformManager/*.h'
   s.private_header_files = 'Pod/Classes/CEMActivityViewController/Private/*.h'
 
   s.frameworks = 'UIKit', 'Foundation'

@@ -23,7 +23,7 @@
     CEMActivityViewController* activityVC = [[CEMActivityViewController alloc] initWithTitle:@"分享方式" activityItems:shareItems
                                                                        applicationActivities:nil];
     [activityVC showWithCompletion:^(NSString * _Nullable activityType, BOOL completed) {
-        
+        NSLog(@"activity: %@, complete<%@>", activityType, @[@"NO", @"YES"][completed]);
     }];
 }
 

@@ -8,6 +8,8 @@
 
 #import "CEMQQActivity.h"
 #import "CEMSocialManager.h"
+#import "CEMUtilities.h"
+
 
 @interface CEMQQActivity ()
 @end
@@ -27,9 +29,7 @@
 }
 
 - (UIImage *)activityImage {
-    NSBundle* sourceBundle = [NSBundle bundleWithPath:[NSBundle.mainBundle pathForResource:@"Resource" ofType:@"bundle"]];
-    NSString* file = [sourceBundle pathForResource:@"img_ss_qq@2x" ofType:@"png"];
-    return [UIImage imageWithContentsOfFile:file];
+    return [UIImage imageNamed:@"img_ss_qq" inBundle:@"Resource"];
 }
 
 - (BOOL)canPerformWithActivityItems:(NSArray *)activityItems {
@@ -111,9 +111,7 @@
 }
 
 - (UIImage *)activityImage {
-    NSBundle* sourceBundle = [NSBundle bundleWithPath:[NSBundle.mainBundle pathForResource:@"Resource" ofType:@"bundle"]];
-    NSString* file = [sourceBundle pathForResource:@"img_ss_qqzone@2x" ofType:@"png"];
-    return [UIImage imageWithContentsOfFile:file];
+    return [UIImage imageNamed:@"img_ss_qqzone" inBundle:@"Resource"];
 }
 
 - (BOOL)canPerformWithActivityItems:(NSArray *)activityItems {

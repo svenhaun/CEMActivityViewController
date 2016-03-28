@@ -7,6 +7,8 @@
 //
 
 #import "CEMSafariActivity.h"
+#import "CEMUtilities.h"
+
 
 @interface CEMSafariActivity ()
 @property (nonatomic, retain) NSURL* url;
@@ -28,9 +30,7 @@
 }
 
 - (UIImage *)activityImage {
-    NSBundle* sourceBundle = [NSBundle bundleWithPath:[NSBundle.mainBundle pathForResource:@"Resource" ofType:@"bundle"]];
-    NSString* file = [sourceBundle pathForResource:@"safari@2x" ofType:@"png"];
-    return [UIImage imageWithContentsOfFile:file];
+    return [UIImage imageNamed:@"safari" inBundle:@"Resource"];
 }
 
 - (BOOL)canPerformWithActivityItems:(NSArray *)activityItems {

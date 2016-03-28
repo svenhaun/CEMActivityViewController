@@ -17,17 +17,20 @@
 #import "WXApi.h"
 #import "WeiboSDK.h"
 
+#import "CEMSocialConfigure.h"
+#import "CEMUtilities.h"
 
+// sina weibo
+NSString *const CEMSocialSinaWeibo_URLSchemeSettingKey              = @"com.cem.social_WeiboURLScheme";
+NSString *const CEMSocialSinaWeibo_AppKeySettingKey                 = @"com.cem.social_WeiboAppKey";
 
-#define SINA_WEIBO_URLSCHEME                 @"your_sina_wb_urlscheme"
-#define SINA_WEIBO_APPKEY                    @"your_sina_wb_appkey"
+// qq
+NSString *const CEMSocialTencentQQ_AppKeySettingKey                 = @"com.cem.social_QQAppKey";
+NSString *const CEMSocialTencentQQ_AppSecretSettingKey              = @"com.cem.social_QQAppSecret";
 
-#define TENCENT_QQ_APPKEY                    @"your_qq_appkey"
-#define TENCENT_QQ_APPSECRET                 @"your_qq_appsecret"
-
-#define TENCENT_WEIXIN_APPKEY                @"your_weixin_appkey"
-#define TENCENT_WEIXIN_APPSECRET             @"your_weixin_appsecret"
-
+// weixin
+NSString *const CEMSocialTencentWeixin_AppKeySettingKey             = @"com.cem.social_WXAppKey";
+NSString *const CEMSocialTencentWeixin_AppSecretSettingKey          = @"com.cem.social_WXAppSecret";
 
 ///
 #ifndef GET_APP_NAME
@@ -42,22 +45,6 @@
 
 
 ///
-@interface NSDate (CEMDateFormat)
-- (NSString *)stringWithFormat:(NSString *)format;
-@end
-
-@implementation NSDate (CEMDateFormat)
-
-- (NSString *)stringWithFormat:(NSString *)format {
-    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
-    [formatter setDateFormat:format];
-    [formatter setLocale:[NSLocale currentLocale]];
-    return [formatter stringFromDate:self];
-}
-
-@end
-
-///
 
 static NSString * const CEMSocialNotificationQQLoginSuccessKey  = @"qq_login_suc";
 
@@ -65,6 +52,10 @@ static NSString * const CEMSocialNotificationQQLoginSuccessKey  = @"qq_login_suc
 static NSString * const CEMSocialHTTPTagGetUserInfo = @"get_user_info";
 static NSString * const CEMSocialHTTPTagSendWeibo   = @"send_weibo";
 
+// configure
+static NSDictionary* __globalSocialConfigSettings = nil;
+
+///
 @interface CEMSocialManager ()
 < WXApiDelegate,
 WeiboSDKDelegate, WBHttpRequestDelegate,
@@ -90,7 +81,9 @@ QQApiInterfaceDelegate
 
 @implementation CEMSocialManager
 
-+ (void)InitSocialManager {
++ (void)InitSocialManagerWithSocialConfigureSettings:(NSDictionary *)settings {
+    __globalSocialConfigSettings = settings;
+    
     [CEMSocialManager sharedSocialManager];
 }
 
@@ -119,16 +112,14 @@ QQApiInterfaceDelegate
         return [TencentOAuth HandleOpenURL:url];
     }
     
-    if([url.scheme isEqualToString:TENCENT_WEIXIN_APPKEY]){
-        
-        return [WXApi handleOpenURL:url delegate:[CEMSocialManager sharedSocialManager]];
+    if([url.scheme isEqualToString:__globalSocialConfigSettings[CEMSocialTencentQQ_AppKeySettingKey]]){
+        return [WXApi handleOpenURL:url delegate:self.sharedSocialManager];
     }
-    else if ([url.scheme isEqualToString:SINA_WEIBO_URLSCHEME]) {
-        
-        return [WeiboSDK handleOpenURL:url delegate:[CEMSocialManager sharedSocialManager]];
+    else if ([url.scheme isEqualToString:__globalSocialConfigSettings[CEMSocialSinaWeibo_URLSchemeSettingKey]]) {
+        return [WeiboSDK handleOpenURL:url delegate:self.sharedSocialManager];
     }
     
-    return [QQApiInterface handleOpenURL:url delegate:[CEMSocialManager sharedSocialManager]];
+    return [QQApiInterface handleOpenURL:url delegate:self.sharedSocialManager];
 }
 
 + (void)logoutQQ {
@@ -155,7 +146,7 @@ QQApiInterfaceDelegate
 // weibo
 - (void)installWeibo {
     [WeiboSDK enableDebugMode:YES];
-    if ([WeiboSDK registerApp:SINA_WEIBO_APPKEY]) {
+    if ([WeiboSDK registerApp:__globalSocialConfigSettings[CEMSocialSinaWeibo_AppKeySettingKey]]) {
         NSLog(@"WeiboSDK install Successful!");
     }
 }
@@ -163,7 +154,8 @@ QQApiInterfaceDelegate
 //微信
 - (void)installWeChat {
 
-    if ([WXApi registerApp:TENCENT_WEIXIN_APPKEY withDescription:NSLocalizedString(@"appname", @"")]) {
+    if ([WXApi registerApp:__globalSocialConfigSettings[CEMSocialTencentWeixin_AppKeySettingKey]
+           withDescription:NSLocalizedString(@"appname", @"")]) {
         NSLog(@"微信初始化成功!");
     }
 }
@@ -234,7 +226,8 @@ QQApiInterfaceDelegate
     }
     
     if (!self.qqOAuth) {
-        TencentOAuth* qqOauth = [[TencentOAuth alloc]initWithAppId:TENCENT_QQ_APPKEY andDelegate:self];
+        TencentOAuth* qqOauth = [[TencentOAuth alloc]initWithAppId:__globalSocialConfigSettings[CEMSocialTencentQQ_AppKeySettingKey]
+                                                       andDelegate:self];
 //        qqOauth.redirectURI = TENCENT_QQ_REDIRECTURI;
 //        qqOauth.redirectURI = @"sns.whalecloud.com";
 
@@ -949,7 +942,7 @@ QQApiInterfaceDelegate
 - (void)getWechatAccessTokenWithCode:(NSString *)code callback:(void (^)(NSDictionary*, NSError *))callback {
     //https://api.weixin.qq.com/sns/oauth2/access_token?appid=APPID&secret=SECRET&code=CODE&grant_type=authorization_code
     
-    NSString *url =[NSString stringWithFormat:@"https://api.weixin.qq.com/sns/oauth2/access_token?appid=%@&secret=%@&code=%@&grant_type=authorization_code", TENCENT_WEIXIN_APPKEY, TENCENT_WEIXIN_APPSECRET, code];
+    NSString *url =[NSString stringWithFormat:@"https://api.weixin.qq.com/sns/oauth2/access_token?appid=%@&secret=%@&code=%@&grant_type=authorization_code", __globalSocialConfigSettings[CEMSocialTencentWeixin_AppKeySettingKey], __globalSocialConfigSettings[CEMSocialTencentWeixin_AppSecretSettingKey], code];
     
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         NSURL *zoneUrl = [NSURL URLWithString:url];

@@ -8,6 +8,7 @@
 
 #import "CEMWeiboActivity.h"
 #import "CEMSocialManager.h"
+#import "CEMUtilities.h"
 
 
 @interface CEMWeiboActivity ()
@@ -33,9 +34,7 @@
 }
 
 - (UIImage *)activityImage {
-    NSBundle* sourceBundle = [NSBundle bundleWithPath:[NSBundle.mainBundle pathForResource:@"Resource" ofType:@"bundle"]];
-    NSString* file = [sourceBundle pathForResource:@"img_ss_wb@2x" ofType:@"png"];
-    return [UIImage imageWithContentsOfFile:file];
+    return [UIImage imageNamed:@"img_ss_wb" inBundle:@"Resource"];
 }
 
 - (BOOL)canPerformWithActivityItems:(NSArray *)activityItems {

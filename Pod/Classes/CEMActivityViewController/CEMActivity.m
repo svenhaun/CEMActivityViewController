@@ -20,6 +20,10 @@ NSString *const CEMActivityTypeMessage                  = @"com.cem.activity.Mes
 NSString *const CEMActivityTypeMail                     = @"com.cem.activity.Mail";
 
 NSString *const CEMActivityTypeRefreshWeb               = @"com.cem.activity.Refresh";
+NSString *const CEMActivityTypeTrash                    = @"com.cem.activity.Trash";
+NSString *const CEMActivityTypeFavorite                 = @"com.cem.activity.Favorite";
+NSString *const CEMActivityTypeIllegalReport            = @"com.cem.activity.IllegalReport";
+NSString *const CEMActivityTypeSaveToLocal              = @"com.cem.activity.SaveToLocal";
 
 
 @interface CEMActivity ()

@@ -11,9 +11,15 @@
 #import "CEMWeChatActivity.h"
 #import "CEMWeiboActivity.h"
 #import "CEMQQActivity.h"
-#import "CEMRefreshActivity.h"
 #import "CEMMessageActivity.h"
 #import "CEMSafariActivity.h"
+
+#import "CEMRefreshActivity.h"
+#import "CEMTrashActivity.h"
+#import "CEMFavoriteActivity.h"
+#import "CEMIllegalReportActivity.h"
+#import "CEMSaveToLocalActivity.h"
+
 
 ///
 static NSDictionary * _activityClsAndTypeMappingDic = nil;
@@ -35,6 +41,10 @@ static NSDictionary * _activityClsAndTypeMappingDic = nil;
                                                CEMActivityTypeMail: CEMMailActivity.class,
                                                CEMActivityTypeRefreshWeb: CEMRefreshActivity.class,
                                                CEMActivityTypeOpenInSafari: CEMSafariActivity.class,
+                                               CEMActivityTypeTrash: CEMTrashActivity.class,
+                                               CEMActivityTypeFavorite: CEMFavoriteActivity.class,
+                                               CEMActivityTypeIllegalReport: CEMIllegalReportActivity.class,
+                                               CEMActivityTypeSaveToLocal: CEMSaveToLocalActivity.class,
                                                };
         });
     }

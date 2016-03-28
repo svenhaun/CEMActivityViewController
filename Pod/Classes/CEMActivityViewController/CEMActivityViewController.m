@@ -57,7 +57,8 @@ const float _itemHeight = 94.f;
                                CEMActivityTypePostToQQ, CEMActivityTypePostToQzone,
                                CEMActivityTypePostToWeibo,
                                CEMActivityTypeMail, CEMActivityTypeMessage, CEMActivityTypeOpenInSafari,
-                               CEMActivityTypeRefreshWeb];
+                               CEMActivityTypeRefreshWeb, CEMActivityTypeTrash, CEMActivityTypeFavorite,
+                               CEMActivityTypeIllegalReport, CEMActivityTypeSaveToLocal];
     }
 }
 

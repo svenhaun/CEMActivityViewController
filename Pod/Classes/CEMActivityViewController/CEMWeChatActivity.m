@@ -8,6 +8,8 @@
 
 #import "CEMWeChatActivity.h"
 #import "CEMSocialManager.h"
+#import "CEMUtilities.h"
+
 
 @interface CEMWeChatActivity ()
 @property (nonatomic, retain) NSString* title;
@@ -31,9 +33,7 @@
 }
 
 - (UIImage *)activityImage {
-    NSBundle* sourceBundle = [NSBundle bundleWithPath:[NSBundle.mainBundle pathForResource:@"Resource" ofType:@"bundle"]];
-    NSString* file = [sourceBundle pathForResource:@"img_ss_wechat@2x" ofType:@"png"];
-    return [UIImage imageWithContentsOfFile:file];
+    return [UIImage imageNamed:@"img_ss_wechat" inBundle:@"Resource"];
 }
 
 - (BOOL)canPerformWithActivityItems:(NSArray *)activityItems {
@@ -118,9 +118,7 @@
 }
 
 - (UIImage *)activityImage {
-    NSBundle* sourceBundle = [NSBundle bundleWithPath:[NSBundle.mainBundle pathForResource:@"Resource" ofType:@"bundle"]];
-    NSString* file = [sourceBundle pathForResource:@"img_ss_wechat_friendcircle@2x" ofType:@"png"];
-    return [UIImage imageWithContentsOfFile:file];
+    return [UIImage imageNamed:@"img_ss_wechat_friendcircle" inBundle:@"Resource"];
 }
 
 - (BOOL)canPerformWithActivityItems:(NSArray *)activityItems {

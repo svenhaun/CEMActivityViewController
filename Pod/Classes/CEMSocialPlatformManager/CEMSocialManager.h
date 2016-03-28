@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+
 typedef NS_ENUM(NSInteger, CEMSocialErrCode) {
     CEMSocialErrCodeSucceed,
     CEMSocialErrCodeLoginCancel,
@@ -30,7 +31,13 @@ typedef void (^CEMSocialSendMediaBlock)(CEMSocialErrCode code);
 @interface CEMSocialManager : NSObject
 
 // must call it before using social functions
-+ (void)InitSocialManager;
+/**
+ *  { CEMSocialSinaWeibo_URLSchemeSettingKey: ..,
+ *    CEMSocialSinaWeibo_AppKeySettingKey: ..,
+ *    CEMSocialTencentQQ_AppKeySettingKey: ..,
+ *    ... }
+ */
++ (void)InitSocialManagerWithSocialConfigureSettings:(NSDictionary *)settings;
 
 //
 + (BOOL)winxinInstalled;

@@ -7,6 +7,8 @@
 //
 
 #import "CEMMessageActivity.h"
+#import "CEMUtilities.h"
+
 #import <MessageUI/MessageUI.h>
 #import <MobileCoreServices/MobileCoreServices.h>
 
@@ -39,9 +41,7 @@
 }
 
 - (UIImage *)activityImage {
-    NSBundle* sourceBundle = [NSBundle bundleWithPath:[NSBundle.mainBundle pathForResource:@"Resource" ofType:@"bundle"]];
-    NSString* file = [sourceBundle pathForResource:@"img_ss_message@2x" ofType:@"png"];
-    return [UIImage imageWithContentsOfFile:file];
+    return [UIImage imageNamed:@"img_ss_message" inBundle:@"Resource"];
 }
 
 - (BOOL)canPerformWithActivityItems:(NSArray *)activityItems {
@@ -139,9 +139,7 @@
 }
 
 - (UIImage *)activityImage {
-    NSBundle* sourceBundle = [NSBundle bundleWithPath:[NSBundle.mainBundle pathForResource:@"Resource" ofType:@"bundle"]];
-    NSString* file = [sourceBundle pathForResource:@"img_ss_email@2x" ofType:@"png"];
-    return [UIImage imageWithContentsOfFile:file];
+    return [UIImage imageNamed:@"img_ss_email" inBundle:@"Resource"];
 }
 
 - (BOOL)canPerformWithActivityItems:(NSArray *)activityItems {

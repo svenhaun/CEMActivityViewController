@@ -21,7 +21,12 @@ extern NSString *const CEMActivityTypeOpenInSafari;
 extern NSString *const CEMActivityTypeMessage;
 extern NSString *const CEMActivityTypeMail;
 
+// actions
 extern NSString *const CEMActivityTypeRefreshWeb;
+extern NSString *const CEMActivityTypeTrash;
+extern NSString *const CEMActivityTypeFavorite;
+extern NSString *const CEMActivityTypeIllegalReport;
+extern NSString *const CEMActivityTypeSaveToLocal;
 
 
 typedef enum : NSUInteger {

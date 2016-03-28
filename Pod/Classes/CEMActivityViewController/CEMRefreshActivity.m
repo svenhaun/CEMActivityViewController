@@ -7,6 +7,8 @@
 //
 
 #import "CEMRefreshActivity.h"
+#import "CEMUtilities.h"
+
 
 @implementation CEMRefreshActivity
 
@@ -23,9 +25,7 @@
 }
 
 - (UIImage *)activityImage {
-    NSBundle* sourceBundle = [NSBundle bundleWithPath:[NSBundle.mainBundle pathForResource:@"Resource" ofType:@"bundle"]];
-    NSString* file = [sourceBundle pathForResource:@"Refresh@2x" ofType:@"png"];
-    return [UIImage imageWithContentsOfFile:file];
+    return [UIImage imageNamed:@"Refresh" inBundle:@"Resource"];
 }
 
 - (BOOL)canPerformWithActivityItems:(NSArray *)activityItems {
@@ -36,6 +36,10 @@
     }
     
     return NO;
+}
+
+- (void)performActivity {
+    [self activityDidFinish:YES];
 }
 
 @end

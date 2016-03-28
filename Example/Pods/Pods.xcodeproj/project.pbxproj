@@ -9,38 +9,49 @@
 /* Begin PBXBuildFile section */
 		0C0A93FB68878556199A1D61E53827F6 /* Pods-CEMActivityViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1F8831219EC618FF101D5EA22257D8 /* Pods-CEMActivityViewController_Tests-dummy.m */; };
 		127A044108E44407F7787C529D2C55C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
-		15B82A920EF40C17ACA498A362054964 /* CEMRefreshActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0E57DB08F15ACA489182873491C692 /* CEMRefreshActivity.m */; };
-		1D7A01A3CBC56E085899B647877FE4A1 /* CEMActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 0149EEE5BE663394BD47058847C34830 /* CEMActivity.m */; };
-		244EC9D4719D752A6B32BA58C789BF30 /* CEMWeChatActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = D4FE28755B499D0E8B29562DFAE1281D /* CEMWeChatActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2ACD96AD76C91D11411F9EC3FAF85C02 /* CEMFileActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 7224B8AF8AD5EA59E3A75995F6704A8B /* CEMFileActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F48CB0B9BFCFBD32019437680BBD209 /* CEMWeiboActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6DE7E7C190850789B44F4D4D38AF9E /* CEMWeiboActivity.m */; };
-		43CC44877EC7EE716157B01AE1CA5108 /* CEMOverlayWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 184FA80B06E7F9F219170E6EFE1EE81A /* CEMOverlayWindow.m */; };
-		44A462F1612D1378A90A98AA528BCC05 /* CEMSafariActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9CC9A8ABCAE6E1E253842AC668099A /* CEMSafariActivity.m */; };
-		4F01E2226A25CCE6FB15BB84E8D0051F /* CEMActivityViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 72478542FB259433E72C8C98DC95B2D6 /* CEMActivityViewCell.m */; };
-		4F9DB13A4F65D2B0CF2169B3A7B093E6 /* CEMSocialManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FE4F8B1D7D626EDA621463F61E106AEA /* CEMSocialManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		58611B98CDE27B13FD6E0F9B056C3401 /* CEMWeiboActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 50ACD162C04340FDA653C5A57A4B913E /* CEMWeiboActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5F58BB28311DD20DEC3D8F1DAD5E1E99 /* CEMRefreshActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = B8B331D726386EECC775D0B074B72089 /* CEMRefreshActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5FD5A4FDD573114A7C5E2D7B68A82081 /* CEMActivity+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = BA76C05EBD61E9987AEB61B5FE834D1B /* CEMActivity+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		609C055925CF5AA0EF30B4E0F8596CCF /* CEMQQActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8F9EB3DCC7B5F38A1547B3FB313CD0 /* CEMQQActivity.m */; };
-		61C03B5C0AE77ADACC3440CCD1DD16AA /* CEMActivityViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 134B70DA5436983B173ED2F627E0B076 /* CEMActivityViewController-dummy.m */; };
-		628B66F989DE43E20CBD4048D9B586D6 /* CEMActivityViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 47CD12D29E6C1D8B465B25950D1ADB68 /* CEMActivityViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6794BE368BBBCCA100204466DEDF7B86 /* CEMActivityViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F62F6EC41D85DBED686BFBBE0077891 /* CEMActivityViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6E61296CB66017DAB25C39EC71DC0D7A /* CEMSocialManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE3C98644772571324A388122BDED9C /* CEMSocialManager.m */; };
+		13D08D7A77C86E55075D485B98A6796C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		23B4A40113D6995F0BE47ACEC36A7D7F /* CEMActivityViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 134B70DA5436983B173ED2F627E0B076 /* CEMActivityViewController-dummy.m */; };
+		3B799C0C1CA907C7001C2496 /* CEMActivity+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B799BE91CA907C7001C2496 /* CEMActivity+Private.h */; };
+		3B799C0D1CA907C7001C2496 /* CEMActivity+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B799BEA1CA907C7001C2496 /* CEMActivity+Private.m */; };
+		3B799C0E1CA907C7001C2496 /* CEMActivityViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B799BEB1CA907C7001C2496 /* CEMActivityViewCell.h */; };
+		3B799C0F1CA907C7001C2496 /* CEMActivityViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B799BEC1CA907C7001C2496 /* CEMActivityViewCell.m */; };
+		3B799C101CA907C7001C2496 /* CEMOverlayWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B799BED1CA907C7001C2496 /* CEMOverlayWindow.h */; };
+		3B799C111CA907C8001C2496 /* CEMOverlayWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B799BEE1CA907C7001C2496 /* CEMOverlayWindow.m */; };
+		3B799C121CA907C8001C2496 /* CEMUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B799BEF1CA907C7001C2496 /* CEMUtilities.h */; };
+		3B799C131CA907C8001C2496 /* CEMUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B799BF01CA907C7001C2496 /* CEMUtilities.m */; };
+		3B799C141CA907C8001C2496 /* CEMActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B799BF21CA907C7001C2496 /* CEMActivity.h */; };
+		3B799C151CA907C8001C2496 /* CEMActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B799BF31CA907C7001C2496 /* CEMActivity.m */; };
+		3B799C161CA907C8001C2496 /* CEMActivityViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B799BF41CA907C7001C2496 /* CEMActivityViewController.h */; };
+		3B799C171CA907C8001C2496 /* CEMActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B799BF51CA907C7001C2496 /* CEMActivityViewController.m */; };
+		3B799C181CA907C8001C2496 /* CEMFavoriteActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B799BF61CA907C7001C2496 /* CEMFavoriteActivity.h */; };
+		3B799C191CA907C8001C2496 /* CEMFavoriteActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B799BF71CA907C7001C2496 /* CEMFavoriteActivity.m */; };
+		3B799C1A1CA907C8001C2496 /* CEMFileActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B799BF81CA907C7001C2496 /* CEMFileActivity.h */; };
+		3B799C1B1CA907C8001C2496 /* CEMFileActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B799BF91CA907C7001C2496 /* CEMFileActivity.m */; };
+		3B799C1C1CA907C8001C2496 /* CEMIllegalReportActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B799BFA1CA907C7001C2496 /* CEMIllegalReportActivity.h */; };
+		3B799C1D1CA907C8001C2496 /* CEMIllegalReportActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B799BFB1CA907C7001C2496 /* CEMIllegalReportActivity.m */; };
+		3B799C1E1CA907C8001C2496 /* CEMMessageActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B799BFC1CA907C7001C2496 /* CEMMessageActivity.h */; };
+		3B799C1F1CA907C8001C2496 /* CEMMessageActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B799BFD1CA907C7001C2496 /* CEMMessageActivity.m */; };
+		3B799C201CA907C8001C2496 /* CEMQQActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B799BFE1CA907C7001C2496 /* CEMQQActivity.h */; };
+		3B799C211CA907C8001C2496 /* CEMQQActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B799BFF1CA907C7001C2496 /* CEMQQActivity.m */; };
+		3B799C221CA907C8001C2496 /* CEMRefreshActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B799C001CA907C7001C2496 /* CEMRefreshActivity.h */; };
+		3B799C231CA907C8001C2496 /* CEMRefreshActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B799C011CA907C7001C2496 /* CEMRefreshActivity.m */; };
+		3B799C241CA907C8001C2496 /* CEMSafariActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B799C021CA907C7001C2496 /* CEMSafariActivity.h */; };
+		3B799C251CA907C8001C2496 /* CEMSafariActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B799C031CA907C7001C2496 /* CEMSafariActivity.m */; };
+		3B799C261CA907C8001C2496 /* CEMSaveToLocalActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B799C041CA907C7001C2496 /* CEMSaveToLocalActivity.h */; };
+		3B799C271CA907C8001C2496 /* CEMSaveToLocalActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B799C051CA907C7001C2496 /* CEMSaveToLocalActivity.m */; };
+		3B799C281CA907C8001C2496 /* CEMTrashActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B799C061CA907C7001C2496 /* CEMTrashActivity.h */; };
+		3B799C291CA907C8001C2496 /* CEMTrashActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B799C071CA907C7001C2496 /* CEMTrashActivity.m */; };
+		3B799C2A1CA907C8001C2496 /* CEMWeChatActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B799C081CA907C7001C2496 /* CEMWeChatActivity.h */; };
+		3B799C2B1CA907C8001C2496 /* CEMWeChatActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B799C091CA907C7001C2496 /* CEMWeChatActivity.m */; };
+		3B799C2C1CA907C8001C2496 /* CEMWeiboActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B799C0A1CA907C7001C2496 /* CEMWeiboActivity.h */; };
+		3B799C2D1CA907C8001C2496 /* CEMWeiboActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B799C0B1CA907C7001C2496 /* CEMWeiboActivity.m */; };
+		3BF0BC451CA53F0B00BC586A /* CEMSocialConfigure.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BF0BC441CA53F0B00BC586A /* CEMSocialConfigure.h */; };
+		4739CBB121721A47158EEF0501D49359 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */; };
 		81064B3CA33D82B69320126CF0328719 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 794117C312BEEBD8CAF7DCE018DEE7B0 /* TencentOpenApi_IOS_Bundle.bundle */; };
-		88FEE63A832A0A01672D3D3747D895F4 /* CEMActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAF25F5BD1F4D49E3BF3591EB765660 /* CEMActivityViewController.m */; };
-		9AE5DF7E560D59095226ED191B5DED64 /* CEMMessageActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = F44F662D25D1ADA831E4C5DC3E03E9FC /* CEMMessageActivity.m */; };
-		9E9E6C6714F0A17C4A145AEE94983144 /* CEMQQActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 0796C99A549225689A0869E1C8FC6D20 /* CEMQQActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9FDF8A62E21255DA0DB7A411A57A484C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
-		B766D02107C69D90294C6B3D4B443061 /* CEMActivity+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BF3F3B694C9DDAB40BFF75CBE83C01 /* CEMActivity+Private.m */; };
-		BEE853BE4F20B60322B0A8BEBFCECF48 /* CEMOverlayWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 079FB545992384C25ADA84E12E3B4838 /* CEMOverlayWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C152875CDF28F516875BF63EA6C79D16 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */; };
 		C6734919E0581A0CCEF3100136675B54 /* Pods-CEMActivityViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89465FB2151C537978C04873522901D7 /* Pods-CEMActivityViewController_Example-dummy.m */; };
-		C957B21CE81E69DBCC0D3498EE0EDE1E /* CEMFileActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 91692AD94FB2A065B27DA51998BB1146 /* CEMFileActivity.m */; };
-		E5976FD67C5AAC9A46D8AC5BB7B78CFA /* CEMSafariActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 89CC9324D7ABEAD14FB64EC2355E3F2E /* CEMSafariActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC7EE0A44FDDDD94F1C50374E62BA29C /* CEMWeChatActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A28ED6BEDE9B849934992CF4F653DE8 /* CEMWeChatActivity.m */; };
-		F1437D88AAFFB357EDEC52DFBAF30C74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
-		F14F0FACDE926ADC34AABEB498C6F2C5 /* CEMMessageActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 0260E64678B4588D79C587C92071808E /* CEMMessageActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F9963F55F5D7BD1E27B8F02C61524D7C /* CEMActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 5683EE92BCB455A8923539DAABCCB4AD /* CEMActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBB4E6BDFB2B09B450EF263F29199097 /* CEMSocialManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EB45126C2D2846A0E57DC7F0EBCB6857 /* CEMSocialManager.m */; };
+		E692A2E6612EABB6C3766D8A4B222638 /* CEMSocialManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C0367021E690C4D059DA928AE35FE551 /* CEMSocialManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,30 +73,25 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DB08248FD50CB67AC9F657D1E938F7C2;
+			remoteGlobalIDString = CB8E0584F3DBB5D878D8D6854456457C;
 			remoteInfo = CEMActivityViewController;
 		};
 		C96FCF6A6D0D74ABC0E2B5AA45825E0E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DB08248FD50CB67AC9F657D1E938F7C2;
+			remoteGlobalIDString = CB8E0584F3DBB5D878D8D6854456457C;
 			remoteInfo = CEMActivityViewController;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0149EEE5BE663394BD47058847C34830 /* CEMActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CEMActivity.m; sourceTree = "<group>"; };
-		0260E64678B4588D79C587C92071808E /* CEMMessageActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CEMMessageActivity.h; sourceTree = "<group>"; };
 		05E04CD8AD8D08D2C6D99BF132A97730 /* Pods-CEMActivityViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CEMActivityViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		0796C99A549225689A0869E1C8FC6D20 /* CEMQQActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CEMQQActivity.h; sourceTree = "<group>"; };
-		079FB545992384C25ADA84E12E3B4838 /* CEMOverlayWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CEMOverlayWindow.h; sourceTree = "<group>"; };
+		07A5BD5D48B9BBDEBF658E351D610D42 /* img_ss_qq@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "img_ss_qq@2x.png"; sourceTree = "<group>"; };
 		0DD1817C6FDD9A8D61F50A458FA8D71B /* TencentOAuthObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TencentOAuthObject.h; path = 64Bit/TencentOpenAPI.framework/Headers/TencentOAuthObject.h; sourceTree = "<group>"; };
-		0E0E57DB08F15ACA489182873491C692 /* CEMRefreshActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CEMRefreshActivity.m; sourceTree = "<group>"; };
-		0F62F6EC41D85DBED686BFBBE0077891 /* CEMActivityViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CEMActivityViewCell.h; sourceTree = "<group>"; };
+		10C8109665BB9B18F00678C7E69DF76E /* img_ss_message@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "img_ss_message@2x.png"; sourceTree = "<group>"; };
 		134B70DA5436983B173ED2F627E0B076 /* CEMActivityViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CEMActivityViewController-dummy.m"; sourceTree = "<group>"; };
 		160D5CBD0E4A7D51949CA347C3EF9BFA /* QQApiInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QQApiInterface.h; path = 64Bit/TencentOpenAPI.framework/Headers/QQApiInterface.h; sourceTree = "<group>"; };
-		184FA80B06E7F9F219170E6EFE1EE81A /* CEMOverlayWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CEMOverlayWindow.m; sourceTree = "<group>"; };
 		264BDF708759776941FAE2B4C9C27AA7 /* Pods-CEMActivityViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CEMActivityViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		27F00AEDBF29CBAE9A9D6FA32E37F743 /* WBSDKBasicButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBSDKBasicButton.h; path = libWeiboSDK/WBSDKBasicButton.h; sourceTree = "<group>"; };
 		283F503949D7CA1AE71E53FA14BE7792 /* Pods-CEMActivityViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CEMActivityViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -94,62 +100,91 @@
 		31A70F4135836B7A939B7446D4FC94B3 /* WBHttpRequest+WeiboUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboUser.h"; path = "libWeiboSDK/WBHttpRequest+WeiboUser.h"; sourceTree = "<group>"; };
 		3252945EC8E5A783A06E71EB1A3E8DBD /* WeiboSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeiboSDK.h; path = libWeiboSDK/WeiboSDK.h; sourceTree = "<group>"; };
 		35D56926107475C763B53A7A516F6A6A /* WeiboSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WeiboSDK.bundle; path = libWeiboSDK/WeiboSDK.bundle; sourceTree = "<group>"; };
-		3A9CC9A8ABCAE6E1E253842AC668099A /* CEMSafariActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CEMSafariActivity.m; sourceTree = "<group>"; };
-		3BF0BC261CA5188700BC586A /* Resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resource.bundle; sourceTree = "<group>"; };
-		3C8F9EB3DCC7B5F38A1547B3FB313CD0 /* CEMQQActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CEMQQActivity.m; sourceTree = "<group>"; };
-		3DE3C98644772571324A388122BDED9C /* CEMSocialManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CEMSocialManager.m; sourceTree = "<group>"; };
+		3B799BE91CA907C7001C2496 /* CEMActivity+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CEMActivity+Private.h"; sourceTree = "<group>"; };
+		3B799BEA1CA907C7001C2496 /* CEMActivity+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CEMActivity+Private.m"; sourceTree = "<group>"; };
+		3B799BEB1CA907C7001C2496 /* CEMActivityViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEMActivityViewCell.h; sourceTree = "<group>"; };
+		3B799BEC1CA907C7001C2496 /* CEMActivityViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEMActivityViewCell.m; sourceTree = "<group>"; };
+		3B799BED1CA907C7001C2496 /* CEMOverlayWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEMOverlayWindow.h; sourceTree = "<group>"; };
+		3B799BEE1CA907C7001C2496 /* CEMOverlayWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEMOverlayWindow.m; sourceTree = "<group>"; };
+		3B799BEF1CA907C7001C2496 /* CEMUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEMUtilities.h; sourceTree = "<group>"; };
+		3B799BF01CA907C7001C2496 /* CEMUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEMUtilities.m; sourceTree = "<group>"; };
+		3B799BF21CA907C7001C2496 /* CEMActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEMActivity.h; sourceTree = "<group>"; };
+		3B799BF31CA907C7001C2496 /* CEMActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEMActivity.m; sourceTree = "<group>"; };
+		3B799BF41CA907C7001C2496 /* CEMActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEMActivityViewController.h; sourceTree = "<group>"; };
+		3B799BF51CA907C7001C2496 /* CEMActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEMActivityViewController.m; sourceTree = "<group>"; };
+		3B799BF61CA907C7001C2496 /* CEMFavoriteActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEMFavoriteActivity.h; sourceTree = "<group>"; };
+		3B799BF71CA907C7001C2496 /* CEMFavoriteActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEMFavoriteActivity.m; sourceTree = "<group>"; };
+		3B799BF81CA907C7001C2496 /* CEMFileActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEMFileActivity.h; sourceTree = "<group>"; };
+		3B799BF91CA907C7001C2496 /* CEMFileActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEMFileActivity.m; sourceTree = "<group>"; };
+		3B799BFA1CA907C7001C2496 /* CEMIllegalReportActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEMIllegalReportActivity.h; sourceTree = "<group>"; };
+		3B799BFB1CA907C7001C2496 /* CEMIllegalReportActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEMIllegalReportActivity.m; sourceTree = "<group>"; };
+		3B799BFC1CA907C7001C2496 /* CEMMessageActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEMMessageActivity.h; sourceTree = "<group>"; };
+		3B799BFD1CA907C7001C2496 /* CEMMessageActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEMMessageActivity.m; sourceTree = "<group>"; };
+		3B799BFE1CA907C7001C2496 /* CEMQQActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEMQQActivity.h; sourceTree = "<group>"; };
+		3B799BFF1CA907C7001C2496 /* CEMQQActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEMQQActivity.m; sourceTree = "<group>"; };
+		3B799C001CA907C7001C2496 /* CEMRefreshActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEMRefreshActivity.h; sourceTree = "<group>"; };
+		3B799C011CA907C7001C2496 /* CEMRefreshActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEMRefreshActivity.m; sourceTree = "<group>"; };
+		3B799C021CA907C7001C2496 /* CEMSafariActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEMSafariActivity.h; sourceTree = "<group>"; };
+		3B799C031CA907C7001C2496 /* CEMSafariActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEMSafariActivity.m; sourceTree = "<group>"; };
+		3B799C041CA907C7001C2496 /* CEMSaveToLocalActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEMSaveToLocalActivity.h; sourceTree = "<group>"; };
+		3B799C051CA907C7001C2496 /* CEMSaveToLocalActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEMSaveToLocalActivity.m; sourceTree = "<group>"; };
+		3B799C061CA907C7001C2496 /* CEMTrashActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEMTrashActivity.h; sourceTree = "<group>"; };
+		3B799C071CA907C7001C2496 /* CEMTrashActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEMTrashActivity.m; sourceTree = "<group>"; };
+		3B799C081CA907C7001C2496 /* CEMWeChatActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEMWeChatActivity.h; sourceTree = "<group>"; };
+		3B799C091CA907C7001C2496 /* CEMWeChatActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEMWeChatActivity.m; sourceTree = "<group>"; };
+		3B799C0A1CA907C7001C2496 /* CEMWeiboActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEMWeiboActivity.h; sourceTree = "<group>"; };
+		3B799C0B1CA907C7001C2496 /* CEMWeiboActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEMWeiboActivity.m; sourceTree = "<group>"; };
+		3BF0BC441CA53F0B00BC586A /* CEMSocialConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEMSocialConfigure.h; sourceTree = "<group>"; };
+		4071144580B03199DC71F50AE18D2D4F /* Refresh@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "Refresh@2x.png"; sourceTree = "<group>"; };
 		41A88902592EB6CCEB329C269C69580E /* libPods-CEMActivityViewController_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CEMActivityViewController_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		47CD12D29E6C1D8B465B25950D1ADB68 /* CEMActivityViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CEMActivityViewController.h; sourceTree = "<group>"; };
-		50ACD162C04340FDA653C5A57A4B913E /* CEMWeiboActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CEMWeiboActivity.h; sourceTree = "<group>"; };
 		53F5EFB68E26F6A242AAD4D2BFFA6F16 /* TencentMessageObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TencentMessageObject.h; path = 64Bit/TencentOpenAPI.framework/Headers/TencentMessageObject.h; sourceTree = "<group>"; };
-		5683EE92BCB455A8923539DAABCCB4AD /* CEMActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CEMActivity.h; sourceTree = "<group>"; };
 		57237B30D26230B4788C0543283DB174 /* WBSDKCommentButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBSDKCommentButton.h; path = libWeiboSDK/WBSDKCommentButton.h; sourceTree = "<group>"; };
+		5A849773075E0A0BAA83E5CFFCE9003C /* img_ss_report@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "img_ss_report@2x.png"; sourceTree = "<group>"; };
 		62EBF40BF244BDE36D49F321970371C1 /* libWeiboSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeiboSDK.a; path = libWeiboSDK/libWeiboSDK.a; sourceTree = "<group>"; };
-		63BF3F3B694C9DDAB40BFF75CBE83C01 /* CEMActivity+Private.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CEMActivity+Private.m"; sourceTree = "<group>"; };
 		6B64D06D80486FF9CB702047DBDA5219 /* TencentApiInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TencentApiInterface.h; path = 64Bit/TencentOpenAPI.framework/Headers/TencentApiInterface.h; sourceTree = "<group>"; };
 		6D006E349EE46B5CCB09153E8153C17C /* WBSDKRelationshipButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBSDKRelationshipButton.h; path = libWeiboSDK/WBSDKRelationshipButton.h; sourceTree = "<group>"; };
 		6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7224B8AF8AD5EA59E3A75995F6704A8B /* CEMFileActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CEMFileActivity.h; sourceTree = "<group>"; };
-		72478542FB259433E72C8C98DC95B2D6 /* CEMActivityViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CEMActivityViewCell.m; sourceTree = "<group>"; };
+		73245F9B7D526B0DF69DA8EF657EF988 /* img_ss_qqzone@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "img_ss_qqzone@2x.png"; sourceTree = "<group>"; };
 		7800F83EB43F71A6F97A4095B0C19547 /* Pods-CEMActivityViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CEMActivityViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		794117C312BEEBD8CAF7DCE018DEE7B0 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TencentOpenApi_IOS_Bundle.bundle; path = 64Bit/TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
 		794C9D632E86C5342E6F9E4A0FE4EB5A /* Pods-CEMActivityViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CEMActivityViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		824D8058E9EA99CBD7F6ADCDD18CB571 /* img_ss_wechat_friendcircle@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "img_ss_wechat_friendcircle@2x.png"; sourceTree = "<group>"; };
+		8275FA2105A3FE5E8D6E26204A6D42A9 /* img_ss_wechat@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "img_ss_wechat@2x.png"; sourceTree = "<group>"; };
 		850F4D4257376A35C4D03B0C82035666 /* Pods-CEMActivityViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CEMActivityViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		882EAA96056222D4EE3138097263DF18 /* TencentOpenAPI.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TencentOpenAPI.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		88EAFC33904CD51086939D34D078AD49 /* WBHttpRequest+WeiboToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboToken.h"; path = "libWeiboSDK/WBHttpRequest+WeiboToken.h"; sourceTree = "<group>"; };
 		89465FB2151C537978C04873522901D7 /* Pods-CEMActivityViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CEMActivityViewController_Example-dummy.m"; sourceTree = "<group>"; };
-		89CC9324D7ABEAD14FB64EC2355E3F2E /* CEMSafariActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CEMSafariActivity.h; sourceTree = "<group>"; };
-		8A28ED6BEDE9B849934992CF4F653DE8 /* CEMWeChatActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CEMWeChatActivity.m; sourceTree = "<group>"; };
 		8CAAD7821A5F934C707CD81ECB20AD38 /* Pods-CEMActivityViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CEMActivityViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
-		8D6DE7E7C190850789B44F4D4D38AF9E /* CEMWeiboActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CEMWeiboActivity.m; sourceTree = "<group>"; };
 		8DD181C815324C4B75E1628E0D148262 /* Pods-CEMActivityViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CEMActivityViewController_Example-resources.sh"; sourceTree = "<group>"; };
-		91692AD94FB2A065B27DA51998BB1146 /* CEMFileActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CEMFileActivity.m; sourceTree = "<group>"; };
+		91DCF6A70E10A18C35FFCDCA0E71E586 /* img_ss_delete@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "img_ss_delete@2x.png"; sourceTree = "<group>"; };
 		97A70EADF4C98D245200F090400F493D /* Pods-CEMActivityViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CEMActivityViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9BE0B4B1ED649CA50DA4F322833AF1FB /* Pods-CEMActivityViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CEMActivityViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A1944516E31CD8772B18766DD19631F3 /* img_ss_wb@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "img_ss_wb@2x.png"; sourceTree = "<group>"; };
 		A8A346279281A1160A25E807CA37D11F /* TencentOAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TencentOAuth.h; path = 64Bit/TencentOpenAPI.framework/Headers/TencentOAuth.h; sourceTree = "<group>"; };
 		B3F25B8CEC7BD64B279F1C5A1F16CB1B /* QQApiInterfaceObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QQApiInterfaceObject.h; path = 64Bit/TencentOpenAPI.framework/Headers/QQApiInterfaceObject.h; sourceTree = "<group>"; };
 		B44D6BABD2C090C4BB4813B7A6491C92 /* WBHttpRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBHttpRequest.h; path = libWeiboSDK/WBHttpRequest.h; sourceTree = "<group>"; };
-		B8B331D726386EECC775D0B074B72089 /* CEMRefreshActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CEMRefreshActivity.h; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BA76C05EBD61E9987AEB61B5FE834D1B /* CEMActivity+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CEMActivity+Private.h"; sourceTree = "<group>"; };
-		BAAF25F5BD1F4D49E3BF3591EB765660 /* CEMActivityViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CEMActivityViewController.m; sourceTree = "<group>"; };
 		BAE416DAD1627596B28577862E911BC8 /* Pods-CEMActivityViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CEMActivityViewController_Tests-resources.sh"; sourceTree = "<group>"; };
+		C0367021E690C4D059DA928AE35FE551 /* CEMSocialManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CEMSocialManager.h; sourceTree = "<group>"; };
 		C1234AE8BE407644E82AAEC819C81DC6 /* Pods-CEMActivityViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CEMActivityViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C1DCD6F3A2B4B0B097B1AFBDFBA6F404 /* CEMActivityViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CEMActivityViewController-prefix.pch"; sourceTree = "<group>"; };
 		C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		C4342037EE722C19D158BA61E5B4AFA5 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		C73B7B1119CAE4BD63C2F4729D29A3B9 /* safari@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "safari@2x.png"; sourceTree = "<group>"; };
 		CD88BDDE49CB3D2F0A36B3579747D222 /* WeiboUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeiboUser.h; path = libWeiboSDK/WeiboUser.h; sourceTree = "<group>"; };
+		CFECF3C22654719518F207D56F6E489A /* img_ss_local@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "img_ss_local@2x.png"; sourceTree = "<group>"; };
 		D447135DB490F17AF06D687491F3D753 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = 64Bit/TencentOpenAPI.framework; sourceTree = "<group>"; };
-		D4FE28755B499D0E8B29562DFAE1281D /* CEMWeChatActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CEMWeChatActivity.h; sourceTree = "<group>"; };
 		D6BC47F6EA75DF31F498F12FEDAD22B8 /* libCEMActivityViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCEMActivityViewController.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8F7BEFD26CBC72A2E88EFFD9AB47DEA /* libPods-CEMActivityViewController_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CEMActivityViewController_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9607497D6294443CEE9ED5C481680AC /* img_ss_privacy@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "img_ss_privacy@2x.png"; sourceTree = "<group>"; };
 		DA7958C859E078D67D1A39AA92F4357F /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		DB028E000232FF915E3BECEC572D0AFE /* WBHttpRequest+WeiboShare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboShare.h"; path = "libWeiboSDK/WBHttpRequest+WeiboShare.h"; sourceTree = "<group>"; };
+		DC371651581CA0870DD8C131E99FBF9E /* img_ss_favorite@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "img_ss_favorite@2x.png"; sourceTree = "<group>"; };
 		E4A1E126EFD3ADC0B8AC98478049B359 /* sdkdef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sdkdef.h; path = 64Bit/TencentOpenAPI.framework/Headers/sdkdef.h; sourceTree = "<group>"; };
-		F44F662D25D1ADA831E4C5DC3E03E9FC /* CEMMessageActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CEMMessageActivity.m; sourceTree = "<group>"; };
+		EB45126C2D2846A0E57DC7F0EBCB6857 /* CEMSocialManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CEMSocialManager.m; sourceTree = "<group>"; };
 		F67F396A8AEEFA4C7FA1D89D089E278B /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
 		FC1F8831219EC618FF101D5EA22257D8 /* Pods-CEMActivityViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CEMActivityViewController_Tests-dummy.m"; sourceTree = "<group>"; };
-		FE4F8B1D7D626EDA621463F61E106AEA /* CEMSocialManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CEMSocialManager.h; sourceTree = "<group>"; };
+		FF7DA7C6BE0B4D2424153583B72F9E65 /* img_ss_email@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "img_ss_email@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +204,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7307A48CF124B4A86927FD9BA217B306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D08D7A77C86E55075D485B98A6796C /* Foundation.framework in Frameworks */,
+				4739CBB121721A47158EEF0501D49359 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9354F903D2F91B8C6DEDE73B2F800A47 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -176,49 +220,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B43FE588E5F2D936F968F1D47194FC55 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F1437D88AAFFB357EDEC52DFBAF30C74 /* Foundation.framework in Frameworks */,
-				C152875CDF28F516875BF63EA6C79D16 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		06C148A1EA7882986139C0BAD18C40C6 /* CEMActivityViewController */ = {
-			isa = PBXGroup;
-			children = (
-				5683EE92BCB455A8923539DAABCCB4AD /* CEMActivity.h */,
-				0149EEE5BE663394BD47058847C34830 /* CEMActivity.m */,
-				BA76C05EBD61E9987AEB61B5FE834D1B /* CEMActivity+Private.h */,
-				63BF3F3B694C9DDAB40BFF75CBE83C01 /* CEMActivity+Private.m */,
-				0F62F6EC41D85DBED686BFBBE0077891 /* CEMActivityViewCell.h */,
-				72478542FB259433E72C8C98DC95B2D6 /* CEMActivityViewCell.m */,
-				47CD12D29E6C1D8B465B25950D1ADB68 /* CEMActivityViewController.h */,
-				BAAF25F5BD1F4D49E3BF3591EB765660 /* CEMActivityViewController.m */,
-				7224B8AF8AD5EA59E3A75995F6704A8B /* CEMFileActivity.h */,
-				91692AD94FB2A065B27DA51998BB1146 /* CEMFileActivity.m */,
-				0260E64678B4588D79C587C92071808E /* CEMMessageActivity.h */,
-				F44F662D25D1ADA831E4C5DC3E03E9FC /* CEMMessageActivity.m */,
-				079FB545992384C25ADA84E12E3B4838 /* CEMOverlayWindow.h */,
-				184FA80B06E7F9F219170E6EFE1EE81A /* CEMOverlayWindow.m */,
-				0796C99A549225689A0869E1C8FC6D20 /* CEMQQActivity.h */,
-				3C8F9EB3DCC7B5F38A1547B3FB313CD0 /* CEMQQActivity.m */,
-				B8B331D726386EECC775D0B074B72089 /* CEMRefreshActivity.h */,
-				0E0E57DB08F15ACA489182873491C692 /* CEMRefreshActivity.m */,
-				89CC9324D7ABEAD14FB64EC2355E3F2E /* CEMSafariActivity.h */,
-				3A9CC9A8ABCAE6E1E253842AC668099A /* CEMSafariActivity.m */,
-				D4FE28755B499D0E8B29562DFAE1281D /* CEMWeChatActivity.h */,
-				8A28ED6BEDE9B849934992CF4F653DE8 /* CEMWeChatActivity.m */,
-				50ACD162C04340FDA653C5A57A4B913E /* CEMWeiboActivity.h */,
-				8D6DE7E7C190850789B44F4D4D38AF9E /* CEMWeiboActivity.m */,
-			);
-			path = CEMActivityViewController;
-			sourceTree = "<group>";
-		};
 		166273CB31F5618E3D558DE1C18DE016 /* CEMActivityViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -239,6 +243,15 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		212BF6883A0A6CCFC14B3997A7B46F48 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9F5AFD41D63894E74D10971EB022B6F1 /* CEMActivityViewController */,
+				600107088F4159CD7BBFBB5A3699F97A /* CEMSocialPlatformManager */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		2A762B93609AA2B9E475C46A45F1D58B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -253,6 +266,54 @@
 				794117C312BEEBD8CAF7DCE018DEE7B0 /* TencentOpenApi_IOS_Bundle.bundle */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		3B799BE81CA907C7001C2496 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				3B799BE91CA907C7001C2496 /* CEMActivity+Private.h */,
+				3B799BEA1CA907C7001C2496 /* CEMActivity+Private.m */,
+				3B799BEB1CA907C7001C2496 /* CEMActivityViewCell.h */,
+				3B799BEC1CA907C7001C2496 /* CEMActivityViewCell.m */,
+				3B799BED1CA907C7001C2496 /* CEMOverlayWindow.h */,
+				3B799BEE1CA907C7001C2496 /* CEMOverlayWindow.m */,
+				3B799BEF1CA907C7001C2496 /* CEMUtilities.h */,
+				3B799BF01CA907C7001C2496 /* CEMUtilities.m */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		3B799BF11CA907C7001C2496 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				3B799BF21CA907C7001C2496 /* CEMActivity.h */,
+				3B799BF31CA907C7001C2496 /* CEMActivity.m */,
+				3B799BF41CA907C7001C2496 /* CEMActivityViewController.h */,
+				3B799BF51CA907C7001C2496 /* CEMActivityViewController.m */,
+				3B799BF61CA907C7001C2496 /* CEMFavoriteActivity.h */,
+				3B799BF71CA907C7001C2496 /* CEMFavoriteActivity.m */,
+				3B799BF81CA907C7001C2496 /* CEMFileActivity.h */,
+				3B799BF91CA907C7001C2496 /* CEMFileActivity.m */,
+				3B799BFA1CA907C7001C2496 /* CEMIllegalReportActivity.h */,
+				3B799BFB1CA907C7001C2496 /* CEMIllegalReportActivity.m */,
+				3B799BFC1CA907C7001C2496 /* CEMMessageActivity.h */,
+				3B799BFD1CA907C7001C2496 /* CEMMessageActivity.m */,
+				3B799BFE1CA907C7001C2496 /* CEMQQActivity.h */,
+				3B799BFF1CA907C7001C2496 /* CEMQQActivity.m */,
+				3B799C001CA907C7001C2496 /* CEMRefreshActivity.h */,
+				3B799C011CA907C7001C2496 /* CEMRefreshActivity.m */,
+				3B799C021CA907C7001C2496 /* CEMSafariActivity.h */,
+				3B799C031CA907C7001C2496 /* CEMSafariActivity.m */,
+				3B799C041CA907C7001C2496 /* CEMSaveToLocalActivity.h */,
+				3B799C051CA907C7001C2496 /* CEMSaveToLocalActivity.m */,
+				3B799C061CA907C7001C2496 /* CEMTrashActivity.h */,
+				3B799C071CA907C7001C2496 /* CEMTrashActivity.m */,
+				3B799C081CA907C7001C2496 /* CEMWeChatActivity.h */,
+				3B799C091CA907C7001C2496 /* CEMWeChatActivity.m */,
+				3B799C0A1CA907C7001C2496 /* CEMWeiboActivity.h */,
+				3B799C0B1CA907C7001C2496 /* CEMWeiboActivity.m */,
+			);
+			path = Public;
 			sourceTree = "<group>";
 		};
 		3D3341B70ACE370D3C5A581E061D8969 /* TencentOpenApiSDK */ = {
@@ -307,20 +368,22 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		600107088F4159CD7BBFBB5A3699F97A /* CEMSocialPlatformManager */ = {
+			isa = PBXGroup;
+			children = (
+				C0367021E690C4D059DA928AE35FE551 /* CEMSocialManager.h */,
+				EB45126C2D2846A0E57DC7F0EBCB6857 /* CEMSocialManager.m */,
+				3BF0BC441CA53F0B00BC586A /* CEMSocialConfigure.h */,
+			);
+			path = CEMSocialPlatformManager;
+			sourceTree = "<group>";
+		};
 		64E686FF731575E5EBFE7E26BD5CB0B9 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				67DCD010A42EF0804AFF55ABB34EDB20 /* Resources */,
+				78C3B2E8757F92B55CA37339256F5258 /* Resources */,
 			);
 			path = Pod;
-			sourceTree = "<group>";
-		};
-		67DCD010A42EF0804AFF55ABB34EDB20 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				3BF0BC261CA5188700BC586A /* Resource.bundle */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		6D13D038D0659FE252CC9AE3C4D3E8E3 /* Products */ = {
@@ -332,6 +395,35 @@
 				882EAA96056222D4EE3138097263DF18 /* TencentOpenAPI.bundle */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		782F9F1697587AFCF06EE9B532ECD52D /* Resource.bundle */ = {
+			isa = PBXGroup;
+			children = (
+				91DCF6A70E10A18C35FFCDCA0E71E586 /* img_ss_delete@2x.png */,
+				FF7DA7C6BE0B4D2424153583B72F9E65 /* img_ss_email@2x.png */,
+				DC371651581CA0870DD8C131E99FBF9E /* img_ss_favorite@2x.png */,
+				CFECF3C22654719518F207D56F6E489A /* img_ss_local@2x.png */,
+				10C8109665BB9B18F00678C7E69DF76E /* img_ss_message@2x.png */,
+				D9607497D6294443CEE9ED5C481680AC /* img_ss_privacy@2x.png */,
+				07A5BD5D48B9BBDEBF658E351D610D42 /* img_ss_qq@2x.png */,
+				73245F9B7D526B0DF69DA8EF657EF988 /* img_ss_qqzone@2x.png */,
+				5A849773075E0A0BAA83E5CFFCE9003C /* img_ss_report@2x.png */,
+				A1944516E31CD8772B18766DD19631F3 /* img_ss_wb@2x.png */,
+				8275FA2105A3FE5E8D6E26204A6D42A9 /* img_ss_wechat@2x.png */,
+				824D8058E9EA99CBD7F6ADCDD18CB571 /* img_ss_wechat_friendcircle@2x.png */,
+				4071144580B03199DC71F50AE18D2D4F /* Refresh@2x.png */,
+				C73B7B1119CAE4BD63C2F4729D29A3B9 /* safari@2x.png */,
+			);
+			path = Resource.bundle;
+			sourceTree = "<group>";
+		};
+		78C3B2E8757F92B55CA37339256F5258 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				782F9F1697587AFCF06EE9B532ECD52D /* Resource.bundle */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -379,6 +471,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9F5AFD41D63894E74D10971EB022B6F1 /* CEMActivityViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3B799BE81CA907C7001C2496 /* Private */,
+				3B799BF11CA907C7001C2496 /* Public */,
+			);
+			path = CEMActivityViewController;
+			sourceTree = "<group>";
+		};
 		A6CC8DFE324D1A3D8FC2979C4E5A1685 /* Pods-CEMActivityViewController_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -400,15 +501,6 @@
 				166273CB31F5618E3D558DE1C18DE016 /* CEMActivityViewController */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		B8995D18A7B194F041B955F5D7FC44FA /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				06C148A1EA7882986139C0BAD18C40C6 /* CEMActivityViewController */,
-				FFA348453C4F2F98338ADF7742F30E13 /* CEMSocialPlatformManager */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		C7D5B9A721CC3CD4A2D2D95B25516092 /* Resources */ = {
@@ -446,7 +538,7 @@
 		CB6F47951A65B6788614BBCFF690CCE7 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				B8995D18A7B194F041B955F5D7FC44FA /* Classes */,
+				212BF6883A0A6CCFC14B3997A7B46F48 /* Classes */,
 			);
 			path = Pod;
 			sourceTree = "<group>";
@@ -472,35 +564,32 @@
 			path = libWeChatSDK;
 			sourceTree = "<group>";
 		};
-		FFA348453C4F2F98338ADF7742F30E13 /* CEMSocialPlatformManager */ = {
-			isa = PBXGroup;
-			children = (
-				FE4F8B1D7D626EDA621463F61E106AEA /* CEMSocialManager.h */,
-				3DE3C98644772571324A388122BDED9C /* CEMSocialManager.m */,
-			);
-			path = CEMSocialPlatformManager;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		F84577A7519C4E70154E4A8A90736914 /* Headers */ = {
+		BCAEE0EDDA950C0C380084DC9CEEB452 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FD5A4FDD573114A7C5E2D7B68A82081 /* CEMActivity+Private.h in Headers */,
-				F9963F55F5D7BD1E27B8F02C61524D7C /* CEMActivity.h in Headers */,
-				6794BE368BBBCCA100204466DEDF7B86 /* CEMActivityViewCell.h in Headers */,
-				628B66F989DE43E20CBD4048D9B586D6 /* CEMActivityViewController.h in Headers */,
-				2ACD96AD76C91D11411F9EC3FAF85C02 /* CEMFileActivity.h in Headers */,
-				F14F0FACDE926ADC34AABEB498C6F2C5 /* CEMMessageActivity.h in Headers */,
-				BEE853BE4F20B60322B0A8BEBFCECF48 /* CEMOverlayWindow.h in Headers */,
-				9E9E6C6714F0A17C4A145AEE94983144 /* CEMQQActivity.h in Headers */,
-				5F58BB28311DD20DEC3D8F1DAD5E1E99 /* CEMRefreshActivity.h in Headers */,
-				E5976FD67C5AAC9A46D8AC5BB7B78CFA /* CEMSafariActivity.h in Headers */,
-				4F9DB13A4F65D2B0CF2169B3A7B093E6 /* CEMSocialManager.h in Headers */,
-				244EC9D4719D752A6B32BA58C789BF30 /* CEMWeChatActivity.h in Headers */,
-				58611B98CDE27B13FD6E0F9B056C3401 /* CEMWeiboActivity.h in Headers */,
+				3B799C0E1CA907C7001C2496 /* CEMActivityViewCell.h in Headers */,
+				3B799C1E1CA907C8001C2496 /* CEMMessageActivity.h in Headers */,
+				3B799C201CA907C8001C2496 /* CEMQQActivity.h in Headers */,
+				3B799C101CA907C7001C2496 /* CEMOverlayWindow.h in Headers */,
+				3B799C281CA907C8001C2496 /* CEMTrashActivity.h in Headers */,
+				3B799C1C1CA907C8001C2496 /* CEMIllegalReportActivity.h in Headers */,
+				3B799C161CA907C8001C2496 /* CEMActivityViewController.h in Headers */,
+				3B799C1A1CA907C8001C2496 /* CEMFileActivity.h in Headers */,
+				3B799C221CA907C8001C2496 /* CEMRefreshActivity.h in Headers */,
+				3B799C241CA907C8001C2496 /* CEMSafariActivity.h in Headers */,
+				3B799C141CA907C8001C2496 /* CEMActivity.h in Headers */,
+				E692A2E6612EABB6C3766D8A4B222638 /* CEMSocialManager.h in Headers */,
+				3B799C2C1CA907C8001C2496 /* CEMWeiboActivity.h in Headers */,
+				3B799C121CA907C8001C2496 /* CEMUtilities.h in Headers */,
+				3B799C0C1CA907C7001C2496 /* CEMActivity+Private.h in Headers */,
+				3B799C261CA907C8001C2496 /* CEMSaveToLocalActivity.h in Headers */,
+				3B799C2A1CA907C8001C2496 /* CEMWeChatActivity.h in Headers */,
+				3BF0BC451CA53F0B00BC586A /* CEMSocialConfigure.h in Headers */,
+				3B799C181CA907C8001C2496 /* CEMFavoriteActivity.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -560,13 +649,13 @@
 			productReference = D8F7BEFD26CBC72A2E88EFFD9AB47DEA /* libPods-CEMActivityViewController_Tests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		DB08248FD50CB67AC9F657D1E938F7C2 /* CEMActivityViewController */ = {
+		CB8E0584F3DBB5D878D8D6854456457C /* CEMActivityViewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6272E9C2E140578884BCF10E715AAC7B /* Build configuration list for PBXNativeTarget "CEMActivityViewController" */;
+			buildConfigurationList = F66AE90B5163611398F66941A4EF8847 /* Build configuration list for PBXNativeTarget "CEMActivityViewController" */;
 			buildPhases = (
-				3EE43D2D5CFD452EF455E370675FB0AB /* Sources */,
-				B43FE588E5F2D936F968F1D47194FC55 /* Frameworks */,
-				F84577A7519C4E70154E4A8A90736914 /* Headers */,
+				3592F11CDE90D116B25D992BAD3B33EC /* Sources */,
+				7307A48CF124B4A86927FD9BA217B306 /* Frameworks */,
+				BCAEE0EDDA950C0C380084DC9CEEB452 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -598,7 +687,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DB08248FD50CB67AC9F657D1E938F7C2 /* CEMActivityViewController */,
+				CB8E0584F3DBB5D878D8D6854456457C /* CEMActivityViewController */,
 				012D81FB382467311055F3AE33EF3D61 /* Pods-CEMActivityViewController_Example */,
 				30D5D29F9BAEB469402FC8F430B7258E /* Pods-CEMActivityViewController_Tests */,
 				132E8B1CE6F4F51894332880F0ECDDEA /* TencentOpenApiSDK-TencentOpenAPI */,
@@ -633,24 +722,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3EE43D2D5CFD452EF455E370675FB0AB /* Sources */ = {
+		3592F11CDE90D116B25D992BAD3B33EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B766D02107C69D90294C6B3D4B443061 /* CEMActivity+Private.m in Sources */,
-				1D7A01A3CBC56E085899B647877FE4A1 /* CEMActivity.m in Sources */,
-				4F01E2226A25CCE6FB15BB84E8D0051F /* CEMActivityViewCell.m in Sources */,
-				61C03B5C0AE77ADACC3440CCD1DD16AA /* CEMActivityViewController-dummy.m in Sources */,
-				88FEE63A832A0A01672D3D3747D895F4 /* CEMActivityViewController.m in Sources */,
-				C957B21CE81E69DBCC0D3498EE0EDE1E /* CEMFileActivity.m in Sources */,
-				9AE5DF7E560D59095226ED191B5DED64 /* CEMMessageActivity.m in Sources */,
-				43CC44877EC7EE716157B01AE1CA5108 /* CEMOverlayWindow.m in Sources */,
-				609C055925CF5AA0EF30B4E0F8596CCF /* CEMQQActivity.m in Sources */,
-				15B82A920EF40C17ACA498A362054964 /* CEMRefreshActivity.m in Sources */,
-				44A462F1612D1378A90A98AA528BCC05 /* CEMSafariActivity.m in Sources */,
-				6E61296CB66017DAB25C39EC71DC0D7A /* CEMSocialManager.m in Sources */,
-				EC7EE0A44FDDDD94F1C50374E62BA29C /* CEMWeChatActivity.m in Sources */,
-				2F48CB0B9BFCFBD32019437680BBD209 /* CEMWeiboActivity.m in Sources */,
+				23B4A40113D6995F0BE47ACEC36A7D7F /* CEMActivityViewController-dummy.m in Sources */,
+				3B799C111CA907C8001C2496 /* CEMOverlayWindow.m in Sources */,
+				3B799C271CA907C8001C2496 /* CEMSaveToLocalActivity.m in Sources */,
+				3B799C2D1CA907C8001C2496 /* CEMWeiboActivity.m in Sources */,
+				3B799C1F1CA907C8001C2496 /* CEMMessageActivity.m in Sources */,
+				3B799C0F1CA907C7001C2496 /* CEMActivityViewCell.m in Sources */,
+				3B799C231CA907C8001C2496 /* CEMRefreshActivity.m in Sources */,
+				3B799C151CA907C8001C2496 /* CEMActivity.m in Sources */,
+				3B799C0D1CA907C7001C2496 /* CEMActivity+Private.m in Sources */,
+				3B799C131CA907C8001C2496 /* CEMUtilities.m in Sources */,
+				3B799C251CA907C8001C2496 /* CEMSafariActivity.m in Sources */,
+				CBB4E6BDFB2B09B450EF263F29199097 /* CEMSocialManager.m in Sources */,
+				3B799C211CA907C8001C2496 /* CEMQQActivity.m in Sources */,
+				3B799C2B1CA907C8001C2496 /* CEMWeChatActivity.m in Sources */,
+				3B799C291CA907C8001C2496 /* CEMTrashActivity.m in Sources */,
+				3B799C171CA907C8001C2496 /* CEMActivityViewController.m in Sources */,
+				3B799C1D1CA907C8001C2496 /* CEMIllegalReportActivity.m in Sources */,
+				3B799C1B1CA907C8001C2496 /* CEMFileActivity.m in Sources */,
+				3B799C191CA907C8001C2496 /* CEMFavoriteActivity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -668,7 +762,7 @@
 		23C318837834CD1D1F95CB084D25E56A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CEMActivityViewController;
-			target = DB08248FD50CB67AC9F657D1E938F7C2 /* CEMActivityViewController */;
+			target = CB8E0584F3DBB5D878D8D6854456457C /* CEMActivityViewController */;
 			targetProxy = C96FCF6A6D0D74ABC0E2B5AA45825E0E /* PBXContainerItemProxy */;
 		};
 		66BC36BB1CF88083A63BAFDFD55727C2 /* PBXTargetDependency */ = {
@@ -686,7 +780,7 @@
 		B0E56B45CCA16DEB33D95965DF13DAE3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CEMActivityViewController;
-			target = DB08248FD50CB67AC9F657D1E938F7C2 /* CEMActivityViewController */;
+			target = CB8E0584F3DBB5D878D8D6854456457C /* CEMActivityViewController */;
 			targetProxy = BE5E508E4237A8A6F6FFAF44F0697EF8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -743,24 +837,6 @@
 			};
 			name = Release;
 		};
-		315242DE37DF08E5528DA35ACD3A0EBE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2DB233F9674BED4F1C4861BE46459292 /* CEMActivityViewController.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CEMActivityViewController/CEMActivityViewController-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		45729627C3729F2C513A11FE944FF86A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 850F4D4257376A35C4D03B0C82035666 /* Pods-CEMActivityViewController_Example.release.xcconfig */;
@@ -806,6 +882,24 @@
 			};
 			name = Release;
 		};
+		90167AD17D74E0BD1A588636FF85A0BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DB233F9674BED4F1C4861BE46459292 /* CEMActivityViewController.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CEMActivityViewController/CEMActivityViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -845,7 +939,7 @@
 			};
 			name = Debug;
 		};
-		D86BEB60E73B9F869FA31E149A96CFBF /* Debug */ = {
+		D6120E3E2215DBB678E6EB8DD2DD1F59 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2DB233F9674BED4F1C4861BE46459292 /* CEMActivityViewController.xcconfig */;
 			buildSettings = {
@@ -921,20 +1015,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6272E9C2E140578884BCF10E715AAC7B /* Build configuration list for PBXNativeTarget "CEMActivityViewController" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D86BEB60E73B9F869FA31E149A96CFBF /* Debug */,
-				315242DE37DF08E5528DA35ACD3A0EBE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		6FC1D9F65C64D9071AF877BBEB9DBDBF /* Build configuration list for PBXNativeTarget "Pods-CEMActivityViewController_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F2C7199DC3C1786DDD537D30E05CFAE2 /* Debug */,
 				45729627C3729F2C513A11FE944FF86A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F66AE90B5163611398F66941A4EF8847 /* Build configuration list for PBXNativeTarget "CEMActivityViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6120E3E2215DBB678E6EB8DD2DD1F59 /* Debug */,
+				90167AD17D74E0BD1A588636FF85A0BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface UIImage (CEMUtilities)
-+ (UIImage *)cem_imageNamed:(NSString *)name inBundle:(NSString *)bundleName;
++ (UIImage *)cem_imageNamed:(NSString *)name;
 + (UIImage *)cem_imageFromColor:(UIColor *)color;
 //
 - (UIImage *)cem_imageByRoundCornerRadius:(CGFloat)radius;

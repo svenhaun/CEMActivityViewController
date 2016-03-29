@@ -12,7 +12,10 @@ Pod::Spec.new do |s|
   s.requires_arc = true
     
   s.source_files = 'Pod/Classes/**/*.{h,m}'
-  s.resource_bundle = {'Icons' => 'Pod/Resources/Resource.bundle/**/*.png' }
+  s.resource = "Pod/Resources/Resource.bundle"
+#  s.resource_bundles = {
+#    'Icons' => ['Pod/Resources/Resource.bundle/**/*.png'],
+#  }
 
   s.public_header_files = ['Pod/Classes/CEMActivityViewController/Public/*.h', 'Pod/Classes/CEMSocialPlatformManager/*.h']
   s.private_header_files = 'Pod/Classes/CEMActivityViewController/Private/*.h'

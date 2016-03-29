@@ -8,6 +8,7 @@
 
 #import "CEMAppDelegate.h"
 #import <CEMActivityViewController/CEMSocialManager.h>
+#import <CEMActivityViewController/CEMSocialConfigure.h>
 
 @implementation CEMAppDelegate
 
@@ -15,7 +16,7 @@
 {
     // Override point for customization after application launch.
 //    [CEMSocialManager InitSocialManager];
-    [CEMSocialManager InitSocialManagerWithSocialConfigureSettings:nil];
+    [CEMSocialManager InitSocialManagerWithSocialConfigureSettings:@{CEMSocialTencentQQ_AppKeySettingKey:@"1105157552"}];
     return YES;
 }
 

@@ -30,7 +30,7 @@
 }
 
 - (UIImage *)activityImage {
-    return [UIImage cem_imageNamed:@"safari" inBundle:@"Resource"];
+    return [UIImage cem_imageNamed:@"safari"];
 }
 
 - (BOOL)canPerformWithActivityItems:(NSArray *)activityItems {

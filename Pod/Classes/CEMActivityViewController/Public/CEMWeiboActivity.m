@@ -34,7 +34,7 @@
 }
 
 - (UIImage *)activityImage {
-    return [UIImage cem_imageNamed:@"img_ss_wb" inBundle:@"Resource"];
+    return [UIImage cem_imageNamed:@"img_ss_wb"];
 }
 
 - (BOOL)canPerformWithActivityItems:(NSArray *)activityItems {

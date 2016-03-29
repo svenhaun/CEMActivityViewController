@@ -24,7 +24,7 @@
 }
 
 - (UIImage *)activityImage {
-    return [UIImage cem_imageNamed:@"img_ss_favorite" inBundle:@"Resource"];
+    return [UIImage cem_imageNamed:@"img_ss_favorite"];
 }
 
 - (BOOL)canPerformWithActivityItems:(NSArray *)activityItems {

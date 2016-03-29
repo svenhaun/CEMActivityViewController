@@ -25,7 +25,7 @@
 }
 
 - (UIImage *)activityImage {
-    return [UIImage cem_imageNamed:@"Refresh" inBundle:@"Resource"];
+    return [UIImage cem_imageNamed:@"Refresh"];
 }
 
 - (BOOL)canPerformWithActivityItems:(NSArray *)activityItems {

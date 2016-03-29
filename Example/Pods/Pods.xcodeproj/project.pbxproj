@@ -73,11 +73,9 @@
 
 /* Begin PBXFileReference section */
 		05E04CD8AD8D08D2C6D99BF132A97730 /* Pods-CEMActivityViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CEMActivityViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		07A5BD5D48B9BBDEBF658E351D610D42 /* img_ss_qq@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "img_ss_qq@2x.png"; sourceTree = "<group>"; };
 		0A86C9CCBBFF3ADD16FCAEB56F661E9A /* libWeiboSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeiboSDK.a; path = libWeiboSDK/libWeiboSDK.a; sourceTree = "<group>"; };
 		0D240F6F51D1429DF5D20A0491E6C2E6 /* WBSDKBasicButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBSDKBasicButton.h; path = libWeiboSDK/WBSDKBasicButton.h; sourceTree = "<group>"; };
 		0ECBBA2BE92C2379AFD20AE81A35A276 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = 64Bit/TencentOpenAPI.framework; sourceTree = "<group>"; };
-		10C8109665BB9B18F00678C7E69DF76E /* img_ss_message@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "img_ss_message@2x.png"; sourceTree = "<group>"; };
 		134B70DA5436983B173ED2F627E0B076 /* CEMActivityViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CEMActivityViewController-dummy.m"; sourceTree = "<group>"; };
 		1C0C11C6EEF9591DF21052165F86F5C6 /* CEMIllegalReportActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CEMIllegalReportActivity.h; sourceTree = "<group>"; };
 		1D9AD642AD6CEFF1EA25120EFD525115 /* CEMActivityViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CEMActivityViewCell.h; sourceTree = "<group>"; };
@@ -91,13 +89,12 @@
 		3898F882A5BD52D8CD31CA1D1F9B7DFC /* CEMUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CEMUtilities.m; sourceTree = "<group>"; };
 		3CB4578A4873C4CA46918292455883A7 /* WeiboUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeiboUser.h; path = libWeiboSDK/WeiboUser.h; sourceTree = "<group>"; };
 		3D6663CB88C01A57E91920608A630286 /* TencentOAuthObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TencentOAuthObject.h; path = 64Bit/TencentOpenAPI.framework/Headers/TencentOAuthObject.h; sourceTree = "<group>"; };
-		4071144580B03199DC71F50AE18D2D4F /* Refresh@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "Refresh@2x.png"; sourceTree = "<group>"; };
 		40FB22DC6A4EA697EBFAB2631F2DC0E6 /* CEMTrashActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CEMTrashActivity.h; sourceTree = "<group>"; };
 		41A88902592EB6CCEB329C269C69580E /* libPods-CEMActivityViewController_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CEMActivityViewController_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		425A1A96F5B5809AEF4C942270AF8450 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		501E5E55ECB4C5CDF0FB7B1B6292D6A9 /* Resource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = Resource.bundle; sourceTree = "<group>"; };
 		5082893B7AC5CED7CAF0093E5F720287 /* CEMFileActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CEMFileActivity.m; sourceTree = "<group>"; };
 		56D57E899F31D68A1DB608496D3757C5 /* CEMFileActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CEMFileActivity.h; sourceTree = "<group>"; };
-		5A849773075E0A0BAA83E5CFFCE9003C /* img_ss_report@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "img_ss_report@2x.png"; sourceTree = "<group>"; };
 		6383574C2C7A4A73468262A3D7117078 /* WBHttpRequest+WeiboGame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboGame.h"; path = "libWeiboSDK/WBHttpRequest+WeiboGame.h"; sourceTree = "<group>"; };
 		65EED327A313962FAEE7C6BA855DCFCB /* CEMWeChatActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CEMWeChatActivity.h; sourceTree = "<group>"; };
 		673926A40DA5DAF84C86F0C7869699E0 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
@@ -106,15 +103,12 @@
 		6F2CFF3F848A1FE0CAF8CBCAAE0FA43F /* QQApiInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QQApiInterface.h; path = 64Bit/TencentOpenAPI.framework/Headers/QQApiInterface.h; sourceTree = "<group>"; };
 		6F43AC1E08CCCF9693137F0CB15FA568 /* CEMFavoriteActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CEMFavoriteActivity.m; sourceTree = "<group>"; };
 		72ADD55F1432A7F22FD1B12F7DAC68E1 /* QQApiInterfaceObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QQApiInterfaceObject.h; path = 64Bit/TencentOpenAPI.framework/Headers/QQApiInterfaceObject.h; sourceTree = "<group>"; };
-		73245F9B7D526B0DF69DA8EF657EF988 /* img_ss_qqzone@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "img_ss_qqzone@2x.png"; sourceTree = "<group>"; };
 		7800F83EB43F71A6F97A4095B0C19547 /* Pods-CEMActivityViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CEMActivityViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		791C2B773518055B0065784F76B07D9F /* CEMQQActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CEMQQActivity.m; sourceTree = "<group>"; };
 		794C9D632E86C5342E6F9E4A0FE4EB5A /* Pods-CEMActivityViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CEMActivityViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7D2629A57FD17E88C9C69EC997348F86 /* WBHttpRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBHttpRequest.h; path = libWeiboSDK/WBHttpRequest.h; sourceTree = "<group>"; };
 		7D99B63A5E0B9F68A2C5DDD075E82B5B /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TencentOpenApi_IOS_Bundle.bundle; path = 64Bit/TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
 		7FCE43328861270424324BAE775F13B7 /* CEMWeiboActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CEMWeiboActivity.h; sourceTree = "<group>"; };
-		824D8058E9EA99CBD7F6ADCDD18CB571 /* img_ss_wechat_friendcircle@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "img_ss_wechat_friendcircle@2x.png"; sourceTree = "<group>"; };
-		8275FA2105A3FE5E8D6E26204A6D42A9 /* img_ss_wechat@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "img_ss_wechat@2x.png"; sourceTree = "<group>"; };
 		8343246A846C0E3549DF7F958E732047 /* WBHttpRequest+WeiboShare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboShare.h"; path = "libWeiboSDK/WBHttpRequest+WeiboShare.h"; sourceTree = "<group>"; };
 		850F4D4257376A35C4D03B0C82035666 /* Pods-CEMActivityViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CEMActivityViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		855A68BBB02BB9CF5FF4919C97A8AD6A /* WBHttpRequest+WeiboToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboToken.h"; path = "libWeiboSDK/WBHttpRequest+WeiboToken.h"; sourceTree = "<group>"; };
@@ -124,7 +118,6 @@
 		8CAAD7821A5F934C707CD81ECB20AD38 /* Pods-CEMActivityViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CEMActivityViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
 		8DD181C815324C4B75E1628E0D148262 /* Pods-CEMActivityViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CEMActivityViewController_Example-resources.sh"; sourceTree = "<group>"; };
 		8F6AC5725601F9E9E9C5284A69079D53 /* sdkdef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sdkdef.h; path = 64Bit/TencentOpenAPI.framework/Headers/sdkdef.h; sourceTree = "<group>"; };
-		91DCF6A70E10A18C35FFCDCA0E71E586 /* img_ss_delete@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "img_ss_delete@2x.png"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		965115A59BE11A88B3F039E5B243BF46 /* ResourceBundle-TencentOpenAPI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TencentOpenAPI-Info.plist"; sourceTree = "<group>"; };
 		97A70EADF4C98D245200F090400F493D /* Pods-CEMActivityViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CEMActivityViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -132,7 +125,6 @@
 		9BE0B4B1ED649CA50DA4F322833AF1FB /* Pods-CEMActivityViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CEMActivityViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9C66D014A9082A58C73B3EEABECFA4F8 /* CEMActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CEMActivity.m; sourceTree = "<group>"; };
 		A122D81F8590F740460AE6DD8A902D14 /* CEMSocialManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CEMSocialManager.m; sourceTree = "<group>"; };
-		A1944516E31CD8772B18766DD19631F3 /* img_ss_wb@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "img_ss_wb@2x.png"; sourceTree = "<group>"; };
 		AF066F8D85A4D7A3B3A04D25E4D2AC88 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		B358784FB4EB712C9AE19A2233211B26 /* WeiboSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WeiboSDK.bundle; path = libWeiboSDK/WeiboSDK.bundle; sourceTree = "<group>"; };
 		B3E651E05EF83B72F62C1C03FF5A022E /* CEMIllegalReportActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CEMIllegalReportActivity.m; sourceTree = "<group>"; };
@@ -145,10 +137,8 @@
 		C1234AE8BE407644E82AAEC819C81DC6 /* Pods-CEMActivityViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CEMActivityViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C1DCD6F3A2B4B0B097B1AFBDFBA6F404 /* CEMActivityViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CEMActivityViewController-prefix.pch"; sourceTree = "<group>"; };
 		C312421668FA06C0327EDE55742F28F1 /* CEMActivity+Private.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CEMActivity+Private.m"; sourceTree = "<group>"; };
-		C73B7B1119CAE4BD63C2F4729D29A3B9 /* safari@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "safari@2x.png"; sourceTree = "<group>"; };
 		C930D19EA629ACEF242C70D86332D39E /* CEMFavoriteActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CEMFavoriteActivity.h; sourceTree = "<group>"; };
 		CF6CE9D15F23F74B039B223E5CF9E3AF /* CEMOverlayWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CEMOverlayWindow.m; sourceTree = "<group>"; };
-		CFECF3C22654719518F207D56F6E489A /* img_ss_local@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "img_ss_local@2x.png"; sourceTree = "<group>"; };
 		D05E0ED835F05BEA42EA85EB6D1281F1 /* TencentApiInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TencentApiInterface.h; path = 64Bit/TencentOpenAPI.framework/Headers/TencentApiInterface.h; sourceTree = "<group>"; };
 		D10DAAFE94E31F6FDB6A64F3E1551601 /* WeiboSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeiboSDK.h; path = libWeiboSDK/WeiboSDK.h; sourceTree = "<group>"; };
 		D1B3C537DBAA8F8BD8151EE8056C5C58 /* CEMQQActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CEMQQActivity.h; sourceTree = "<group>"; };
@@ -158,8 +148,6 @@
 		D6BC47F6EA75DF31F498F12FEDAD22B8 /* libCEMActivityViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCEMActivityViewController.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D821652BEB2832A9FF95D3FB8BB9C551 /* CEMActivityViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CEMActivityViewCell.m; sourceTree = "<group>"; };
 		D8F7BEFD26CBC72A2E88EFFD9AB47DEA /* libPods-CEMActivityViewController_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CEMActivityViewController_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9607497D6294443CEE9ED5C481680AC /* img_ss_privacy@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "img_ss_privacy@2x.png"; sourceTree = "<group>"; };
-		DC371651581CA0870DD8C131E99FBF9E /* img_ss_favorite@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "img_ss_favorite@2x.png"; sourceTree = "<group>"; };
 		DCEC2F3D16EEE07F646F49802BEFCF3E /* CEMSafariActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CEMSafariActivity.m; sourceTree = "<group>"; };
 		E4BC6196F5AACD72108A24F6ED9C6460 /* WBSDKRelationshipButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBSDKRelationshipButton.h; path = libWeiboSDK/WBSDKRelationshipButton.h; sourceTree = "<group>"; };
 		EB4D291A257EB64B74863DE07409BCBC /* CEMWeChatActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CEMWeChatActivity.m; sourceTree = "<group>"; };
@@ -171,7 +159,6 @@
 		FC2E897CEEF0623FA4A125B774CB462C /* CEMTrashActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CEMTrashActivity.m; sourceTree = "<group>"; };
 		FD55BE10F8E138E7B6048E53FF75AB70 /* CEMActivity+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CEMActivity+Private.h"; sourceTree = "<group>"; };
 		FD77F070F88583347D89155DBC9E4D73 /* CEMWeiboActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CEMWeiboActivity.m; sourceTree = "<group>"; };
-		FF7DA7C6BE0B4D2424153583B72F9E65 /* img_ss_email@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "img_ss_email@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -334,7 +321,7 @@
 		64E686FF731575E5EBFE7E26BD5CB0B9 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				78C3B2E8757F92B55CA37339256F5258 /* Resources */,
+				F103B8081684A9A4EF857A0E1B442A1F /* Resources */,
 			);
 			path = Pod;
 			sourceTree = "<group>";
@@ -348,35 +335,6 @@
 				882EAA96056222D4EE3138097263DF18 /* TencentOpenAPI.bundle */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		782F9F1697587AFCF06EE9B532ECD52D /* Resource.bundle */ = {
-			isa = PBXGroup;
-			children = (
-				91DCF6A70E10A18C35FFCDCA0E71E586 /* img_ss_delete@2x.png */,
-				FF7DA7C6BE0B4D2424153583B72F9E65 /* img_ss_email@2x.png */,
-				DC371651581CA0870DD8C131E99FBF9E /* img_ss_favorite@2x.png */,
-				CFECF3C22654719518F207D56F6E489A /* img_ss_local@2x.png */,
-				10C8109665BB9B18F00678C7E69DF76E /* img_ss_message@2x.png */,
-				D9607497D6294443CEE9ED5C481680AC /* img_ss_privacy@2x.png */,
-				07A5BD5D48B9BBDEBF658E351D610D42 /* img_ss_qq@2x.png */,
-				73245F9B7D526B0DF69DA8EF657EF988 /* img_ss_qqzone@2x.png */,
-				5A849773075E0A0BAA83E5CFFCE9003C /* img_ss_report@2x.png */,
-				A1944516E31CD8772B18766DD19631F3 /* img_ss_wb@2x.png */,
-				8275FA2105A3FE5E8D6E26204A6D42A9 /* img_ss_wechat@2x.png */,
-				824D8058E9EA99CBD7F6ADCDD18CB571 /* img_ss_wechat_friendcircle@2x.png */,
-				4071144580B03199DC71F50AE18D2D4F /* Refresh@2x.png */,
-				C73B7B1119CAE4BD63C2F4729D29A3B9 /* safari@2x.png */,
-			);
-			path = Resource.bundle;
-			sourceTree = "<group>";
-		};
-		78C3B2E8757F92B55CA37339256F5258 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				782F9F1697587AFCF06EE9B532ECD52D /* Resource.bundle */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		78FFAE0E954DD6A605F560699EB4A094 /* Private */ = {
@@ -559,6 +517,14 @@
 				AF066F8D85A4D7A3B3A04D25E4D2AC88 /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		F103B8081684A9A4EF857A0E1B442A1F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				501E5E55ECB4C5CDF0FB7B1B6292D6A9 /* Resource.bundle */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -10,7 +10,7 @@
 
 @implementation UIImage (CEMUtilities)
 
-+ (UIImage *)imageNamed:(NSString *)name inBundle:(NSString *)bundleName {
++ (UIImage *)cem_imageNamed:(NSString *)name inBundle:(NSString *)bundleName {
     if (!name) return nil;
     if (!bundleName) return [UIImage imageNamed:name];
 
@@ -44,7 +44,7 @@
     return [UIImage imageWithContentsOfFile:imageFullpath];
 }
 
-- (UIImage *)imageByRoundCornerRadius:(CGFloat)radius {
+- (UIImage *)cem_imageByRoundCornerRadius:(CGFloat)radius {
     
     UIGraphicsBeginImageContextWithOptions(self.size, NO, self.scale);
     CGContextRef context = UIGraphicsGetCurrentContext();
@@ -66,7 +66,7 @@
     return image;
 }
 
-- (UIImage *)highlightImage {
+- (UIImage *)cem_highlightImage {
     
     CGRect rect = CGRectMake(0.0f, 0.0f, self.size.width, self.size.height);
     UIColor* overlayColor = [UIColor colorWithWhite:0 alpha:0.3];
@@ -84,6 +84,18 @@
     return image;
 }
 
++ (UIImage *)cem_imageFromColor:(UIColor *)color {
+    if (!color) return nil;
+    CGRect rect = CGRectMake(0.0f, 0.0f, 1, 1);
+    UIGraphicsBeginImageContextWithOptions(rect.size, NO, 0);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    CGContextSetFillColorWithColor(context, color.CGColor);
+    CGContextFillRect(context, rect);
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return image;
+}
+
 @end
 
 
@@ -91,7 +103,7 @@
 ///
 @implementation NSDate (CEMDateFormat)
 
-- (NSString *)stringWithFormat:(NSString *)format {
+- (NSString *)cem_stringWithFormat:(NSString *)format {
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
     [formatter setDateFormat:format];
     [formatter setLocale:[NSLocale currentLocale]];

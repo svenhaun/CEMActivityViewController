@@ -29,7 +29,7 @@
 }
 
 - (UIImage *)activityImage {
-    return [UIImage imageNamed:@"img_ss_qq" inBundle:@"Resource"];
+    return [UIImage cem_imageNamed:@"img_ss_qq" inBundle:@"Resource"];
 }
 
 - (BOOL)canPerformWithActivityItems:(NSArray *)activityItems {
@@ -111,7 +111,7 @@
 }
 
 - (UIImage *)activityImage {
-    return [UIImage imageNamed:@"img_ss_qqzone" inBundle:@"Resource"];
+    return [UIImage cem_imageNamed:@"img_ss_qqzone" inBundle:@"Resource"];
 }
 
 - (BOOL)canPerformWithActivityItems:(NSArray *)activityItems {

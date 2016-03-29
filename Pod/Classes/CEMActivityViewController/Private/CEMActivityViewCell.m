@@ -64,8 +64,8 @@
     _activity = activity;
     
     UIImage* faceImage = [activity activityImage];
-    self.indexIView.image = [faceImage imageByRoundCornerRadius:13.f];
-    self.indexIView.highlightedImage = [faceImage.highlightImage imageByRoundCornerRadius:13.f];
+    self.indexIView.image = [faceImage cem_imageByRoundCornerRadius:13.f];
+    self.indexIView.highlightedImage = [faceImage.cem_highlightImage cem_imageByRoundCornerRadius:13.f];
     
     self.titleLabel.text = [activity activityTitle];
 }

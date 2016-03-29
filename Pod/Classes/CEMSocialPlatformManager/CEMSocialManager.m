@@ -200,7 +200,7 @@ QQApiInterfaceDelegate
     NSDate* expiredDate = [qqOAuth expirationDate];
     NSString* userId = [qqOAuth openId];
     self.authResultDic = @{@"thirdpart_token": accessToken,
-                           @"thirdpart_expire_date":[expiredDate stringWithFormat:@"yyyy/MM/dd HH:mm:ss"],
+                           @"thirdpart_expire_date":[expiredDate cem_stringWithFormat:@"yyyy/MM/dd HH:mm:ss"],
                            @"thirdpart_id": userId };
 }
 
@@ -351,7 +351,7 @@ QQApiInterfaceDelegate
     }
     
     WBWebpageObject* webpageO = [WBWebpageObject object];
-    webpageO.objectID = [NSDate.date stringWithFormat:@"yyyy-MM-dd HH:mm:ss"];
+    webpageO.objectID = [NSDate.date cem_stringWithFormat:@"yyyy-MM-dd HH:mm:ss"];
     webpageO.webpageUrl = sourceURL;
     webpageO.title = title;
     webpageO.description = description;
@@ -752,7 +752,7 @@ QQApiInterfaceDelegate
             NSString *strAccessToken=[(WBAuthorizeResponse*)response accessToken];
             NSDate *exDate=[(WBAuthorizeResponse*)response expirationDate];
             NSString *uid=[(WBAuthorizeResponse*)response userID];
-            NSString* strExDate = [exDate stringWithFormat:@"yyyy/MM/dd HH:mm:ss"];
+            NSString* strExDate = [exDate cem_stringWithFormat:@"yyyy/MM/dd HH:mm:ss"];
             self.authResultDic = @{@"thirdpart_token": strAccessToken, @"thirdpart_expire_date": strExDate,
                                    @"thirdpart_id": uid};
             NSLog(@"auth :%@", self.authResultDic);
@@ -1049,7 +1049,7 @@ QQApiInterfaceDelegate
                 NSDate* expiredDate = [NSDate dateWithTimeIntervalSinceNow:90 * 24 * 60 * 60];
                 
                 self.authResultDic = @{@"thirdpart_token": token,
-                                       @"thirdpart_expire_date":[expiredDate stringWithFormat:@"yyyy/MM/dd HH:mm:ss"],
+                                       @"thirdpart_expire_date":[expiredDate cem_stringWithFormat:@"yyyy/MM/dd HH:mm:ss"],
                                        @"thirdpart_id": openId };
                 
                 [self getUserInfoWithToken:token openId:openId

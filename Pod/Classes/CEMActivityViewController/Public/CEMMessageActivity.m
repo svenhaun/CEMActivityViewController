@@ -41,7 +41,7 @@
 }
 
 - (UIImage *)activityImage {
-    return [UIImage imageNamed:@"img_ss_message" inBundle:@"Resource"];
+    return [UIImage cem_imageNamed:@"img_ss_message" inBundle:@"Resource"];
 }
 
 - (BOOL)canPerformWithActivityItems:(NSArray *)activityItems {
@@ -139,7 +139,7 @@
 }
 
 - (UIImage *)activityImage {
-    return [UIImage imageNamed:@"img_ss_email" inBundle:@"Resource"];
+    return [UIImage cem_imageNamed:@"img_ss_email" inBundle:@"Resource"];
 }
 
 - (BOOL)canPerformWithActivityItems:(NSArray *)activityItems {

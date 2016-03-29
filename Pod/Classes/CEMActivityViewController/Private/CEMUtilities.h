@@ -9,17 +9,17 @@
 #import <Foundation/Foundation.h>
 
 @interface UIImage (CEMUtilities)
-+ (UIImage *)imageNamed:(NSString *)name inBundle:(NSString *)bundleName;
-
++ (UIImage *)cem_imageNamed:(NSString *)name inBundle:(NSString *)bundleName;
++ (UIImage *)cem_imageFromColor:(UIColor *)color;
 //
-- (UIImage *)imageByRoundCornerRadius:(CGFloat)radius;
-- (UIImage *)highlightImage;
+- (UIImage *)cem_imageByRoundCornerRadius:(CGFloat)radius;
+- (UIImage *)cem_highlightImage;
 
 @end
 
 
 ///
 @interface NSDate (CEMDateFormat)
-- (NSString *)stringWithFormat:(NSString *)format;
+- (NSString *)cem_stringWithFormat:(NSString *)format;
 @end
 

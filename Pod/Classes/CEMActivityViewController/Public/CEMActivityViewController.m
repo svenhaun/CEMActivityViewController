@@ -11,13 +11,7 @@
 
 #import "CEMActivity+Private.h"
 #import "CEMActivityViewCell.h"
-
-
-@interface UIImage (CEMImageFromColor)
-
-+ (UIImage *)imageFromColor:(UIColor *)color;
-@end
-
+#import "CEMUtilities.h"
 
 ///
 @interface CEMActivityViewController () <UIGestureRecognizerDelegate,
@@ -119,8 +113,8 @@ const float _itemHeight = 94.f;
     cancelButton.autoresizingMask = UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleTopMargin;
     [cancelButton setTitle:@"取消" forState:UIControlStateNormal];
     [cancelButton setTitleColor:UIColor.blackColor forState:UIControlStateNormal];
-    [cancelButton setBackgroundImage:[UIImage imageFromColor:[UIColor colorWithWhite:230./255 alpha:1.]] forState:UIControlStateNormal];
-    [cancelButton setBackgroundImage:[UIImage imageFromColor:[UIColor colorWithWhite:225./255 alpha:1.]] forState:UIControlStateHighlighted];
+    [cancelButton setBackgroundImage:[UIImage cem_imageFromColor:[UIColor colorWithWhite:230./255 alpha:1.]] forState:UIControlStateNormal];
+    [cancelButton setBackgroundImage:[UIImage cem_imageFromColor:[UIColor colorWithWhite:225./255 alpha:1.]] forState:UIControlStateHighlighted];
     [cancelButton addTarget:self action:@selector(cancel:) forControlEvents:UIControlEventTouchUpInside];
     [self.containerView addSubview:cancelButton];
     self.cancelButton = cancelButton;
@@ -397,19 +391,3 @@ const float _itemHeight = 94.f;
 @end
 
 
-////
-@implementation UIImage (CEMImageFromColor)
-
-+ (UIImage *)imageFromColor:(UIColor *)color {
-    if (!color) return nil;
-    CGRect rect = CGRectMake(0.0f, 0.0f, 1, 1);
-    UIGraphicsBeginImageContextWithOptions(rect.size, NO, 0);
-    CGContextRef context = UIGraphicsGetCurrentContext();
-    CGContextSetFillColorWithColor(context, color.CGColor);
-    CGContextFillRect(context, rect);
-    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
-    UIGraphicsEndImageContext();
-    return image;
-}
-
-@end

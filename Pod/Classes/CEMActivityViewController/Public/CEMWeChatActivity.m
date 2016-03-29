@@ -33,7 +33,7 @@
 }
 
 - (UIImage *)activityImage {
-    return [UIImage imageNamed:@"img_ss_wechat" inBundle:@"Resource"];
+    return [UIImage cem_imageNamed:@"img_ss_wechat" inBundle:@"Resource"];
 }
 
 - (BOOL)canPerformWithActivityItems:(NSArray *)activityItems {
@@ -118,7 +118,7 @@
 }
 
 - (UIImage *)activityImage {
-    return [UIImage imageNamed:@"img_ss_wechat_friendcircle" inBundle:@"Resource"];
+    return [UIImage cem_imageNamed:@"img_ss_wechat_friendcircle" inBundle:@"Resource"];
 }
 
 - (BOOL)canPerformWithActivityItems:(NSArray *)activityItems {

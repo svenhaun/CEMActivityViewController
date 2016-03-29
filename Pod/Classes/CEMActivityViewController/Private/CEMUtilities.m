@@ -14,7 +14,7 @@
 
 + (UIImage *)cem_imageNamed:(NSString *)name inBundle:(NSBundle *)bundle {
     if (!name) return nil;
-    if (!bundle) return [UIImage imageNamed:name];
+    if (!bundle) bundle = NSBundle.mainBundle;
     
     int screenScale = [UIScreen mainScreen].scale;
     
@@ -113,6 +113,8 @@
 
 ///
 @implementation NSBundle (CEMUtilities)
+
++ (NSInteger)length { return 0; }
 
 + (NSBundle *)cem_libBundle {
     return [self bundleWithURL:self.cem_libBundleURL];

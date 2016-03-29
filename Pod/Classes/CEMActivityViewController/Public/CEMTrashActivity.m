@@ -25,7 +25,7 @@
 }
 
 - (UIImage *)activityImage {
-    return [UIImage cem_imageNamed:@"img_ss_delete"];
+    return [UIImage cem_imageNamed:@"img_ss_delete" inBundle:NSBundle.cem_libBundle];
 }
 
 - (BOOL)canPerformWithActivityItems:(NSArray *)activityItems {

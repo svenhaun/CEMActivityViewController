@@ -9,13 +9,11 @@
 #import "CEMUtilities.h"
 #import "CEMActivityViewController.h"
 
+///
 @implementation UIImage (CEMUtilities)
 
-+ (UIImage *)cem_imageNamed:(NSString *)name {
++ (UIImage *)cem_imageNamed:(NSString *)name inBundle:(NSBundle *)bundle {
     if (!name) return nil;
-    
-    NSBundle *bundle = [NSBundle bundleForClass:CEMActivityViewController.class];
-    bundle = [NSBundle bundleWithURL:[bundle URLForResource:@"Resource" withExtension:@"bundle"]];
     if (!bundle) return [UIImage imageNamed:name];
     
     int screenScale = [UIScreen mainScreen].scale;
@@ -112,3 +110,17 @@
 
 @end
 
+
+///
+@implementation NSBundle (CEMUtilities)
+
++ (NSBundle *)cem_libBundle {
+    return [self bundleWithURL:self.cem_libBundleURL];
+}
+
++ (NSURL *)cem_libBundleURL {
+    NSBundle *bundle = [NSBundle bundleForClass:CEMActivityViewController.class];
+    return [bundle URLForResource:@"Resource" withExtension:@"bundle"];
+}
+
+@end

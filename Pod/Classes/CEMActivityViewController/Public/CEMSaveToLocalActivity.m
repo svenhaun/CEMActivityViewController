@@ -25,7 +25,7 @@
 }
 
 - (UIImage *)activityImage {
-    return [UIImage cem_imageNamed:@"img_ss_local"];
+    return [UIImage cem_imageNamed:@"img_ss_local" inBundle:NSBundle.cem_libBundle];
 }
 
 - (BOOL)canPerformWithActivityItems:(NSArray *)activityItems {

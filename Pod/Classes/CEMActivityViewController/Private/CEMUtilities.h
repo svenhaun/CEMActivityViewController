@@ -9,12 +9,18 @@
 #import <Foundation/Foundation.h>
 
 @interface UIImage (CEMUtilities)
-+ (UIImage *)cem_imageNamed:(NSString *)name;
++ (UIImage *)cem_imageNamed:(NSString *)name inBundle:(NSBundle *)bundle;
 + (UIImage *)cem_imageFromColor:(UIColor *)color;
 //
 - (UIImage *)cem_imageByRoundCornerRadius:(CGFloat)radius;
 - (UIImage *)cem_highlightImage;
 
+@end
+
+@interface NSBundle (CEMUtilities)
+
++ (NSBundle *)cem_libBundle;
++ (NSURL *)cem_libBundleURL;
 @end
 
 

@@ -1,1 +1,1 @@
-../../../../../Pod/Classes/CEMActivityViewController/CEMSafariActivity.h
+../../../../../Pod/Classes/CEMActivityViewController/Public/CEMSafariActivity.h

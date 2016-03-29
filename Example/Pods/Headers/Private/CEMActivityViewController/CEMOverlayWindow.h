@@ -1,1 +1,1 @@
-../../../../../Pod/Classes/CEMActivityViewController/CEMOverlayWindow.h
+../../../../../Pod/Classes/CEMActivityViewController/Private/CEMOverlayWindow.h

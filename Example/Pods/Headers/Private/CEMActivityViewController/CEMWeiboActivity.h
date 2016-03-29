@@ -1,1 +1,1 @@
-../../../../../Pod/Classes/CEMActivityViewController/CEMWeiboActivity.h
+../../../../../Pod/Classes/CEMActivityViewController/Public/CEMWeiboActivity.h

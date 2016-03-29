@@ -1,1 +1,1 @@
-../../../../../Pod/Classes/CEMActivityViewController/CEMActivityViewController.h
+../../../../../Pod/Classes/CEMActivityViewController/Public/CEMActivityViewController.h

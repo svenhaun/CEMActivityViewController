@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A9E9EB4B09E50F9968259F8 /* libPods-CEMActivityViewController_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D43836797D0A093D23E500A4 /* libPods-CEMActivityViewController_Tests.a */; };
 		3B09B4FC1C99364000D54A97 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B09B4FB1C99364000D54A97 /* libc++.tbd */; };
 		3B09B4FE1C99364700D54A97 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B09B4FD1C99364700D54A97 /* libsqlite3.tbd */; };
 		3B09B5001C99370400D54A97 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B09B4FF1C99370400D54A97 /* SystemConfiguration.framework */; };
@@ -29,7 +28,8 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		CC78129E5F8226F650113EB6 /* libPods-CEMActivityViewController_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B840935AD54B695B49863D /* libPods-CEMActivityViewController_Example.a */; };
+		96BD43AA39AA8109D4D0F1A9 /* libPods-CEMActivityViewController_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A164AD9E173FFDABDF5CB82D /* libPods-CEMActivityViewController_Tests.a */; };
+		F86DE5C6761F85CC1C673BB8 /* libPods-CEMActivityViewController_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B9EBF49C8DC0E08016FEDB /* libPods-CEMActivityViewController_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		34B9EBF49C8DC0E08016FEDB /* libPods-CEMActivityViewController_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CEMActivityViewController_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34E446AA262547389F857EE6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3B09B4FB1C99364000D54A97 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		3B09B4FD1C99364700D54A97 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
@@ -51,6 +52,7 @@
 		3BE0FE401C990A89002BC629 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		3BF11E8F1C9A41CB006632D5 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BF11E951C9A598F006632D5 /* CEMActivityViewController.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CEMActivityViewController.podspec; path = ../CEMActivityViewController.podspec; sourceTree = "<group>"; };
+		54D7890C818200E331E43899 /* Pods-CEMActivityViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CEMActivityViewController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CEMActivityViewController_Tests/Pods-CEMActivityViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CEMActivityViewController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CEMActivityViewController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -70,14 +72,12 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		76F0B49A6B527844E468545C /* Pods-CEMActivityViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CEMActivityViewController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CEMActivityViewController_Example/Pods-CEMActivityViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		98C0B0C36C8260D28E5995C1 /* Pods-CEMActivityViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CEMActivityViewController_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CEMActivityViewController_Tests/Pods-CEMActivityViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8CDD6A1559DA9EC4F98472F9 /* Pods-CEMActivityViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CEMActivityViewController_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CEMActivityViewController_Tests/Pods-CEMActivityViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A164AD9E173FFDABDF5CB82D /* libPods-CEMActivityViewController_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CEMActivityViewController_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C37FFC0D1292E115A794B319 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		C7B840935AD54B695B49863D /* libPods-CEMActivityViewController_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CEMActivityViewController_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC7F5B1FB44E0D005F589A10 /* Pods-CEMActivityViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CEMActivityViewController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CEMActivityViewController_Tests/Pods-CEMActivityViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D43836797D0A093D23E500A4 /* libPods-CEMActivityViewController_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CEMActivityViewController_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E984DFEC1FC7A87FE6EFC4AF /* Pods-CEMActivityViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CEMActivityViewController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CEMActivityViewController_Example/Pods-CEMActivityViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FC90C1CBE98A13F96E8D4A5D /* Pods-CEMActivityViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CEMActivityViewController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CEMActivityViewController_Example/Pods-CEMActivityViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E86D4A4F3E19651A156D8150 /* Pods-CEMActivityViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CEMActivityViewController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CEMActivityViewController_Example/Pods-CEMActivityViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +93,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				CC78129E5F8226F650113EB6 /* libPods-CEMActivityViewController_Example.a in Frameworks */,
+				F86DE5C6761F85CC1C673BB8 /* libPods-CEMActivityViewController_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,20 +104,20 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				0A9E9EB4B09E50F9968259F8 /* libPods-CEMActivityViewController_Tests.a in Frameworks */,
+				96BD43AA39AA8109D4D0F1A9 /* libPods-CEMActivityViewController_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1707E6E0E65050347961D770 /* Pods */ = {
+		58DB622E1A5C60F954EA7AAA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FC90C1CBE98A13F96E8D4A5D /* Pods-CEMActivityViewController_Example.debug.xcconfig */,
-				E984DFEC1FC7A87FE6EFC4AF /* Pods-CEMActivityViewController_Example.release.xcconfig */,
-				CC7F5B1FB44E0D005F589A10 /* Pods-CEMActivityViewController_Tests.debug.xcconfig */,
-				98C0B0C36C8260D28E5995C1 /* Pods-CEMActivityViewController_Tests.release.xcconfig */,
+				E86D4A4F3E19651A156D8150 /* Pods-CEMActivityViewController_Example.debug.xcconfig */,
+				76F0B49A6B527844E468545C /* Pods-CEMActivityViewController_Example.release.xcconfig */,
+				54D7890C818200E331E43899 /* Pods-CEMActivityViewController_Tests.debug.xcconfig */,
+				8CDD6A1559DA9EC4F98472F9 /* Pods-CEMActivityViewController_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -130,7 +130,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				1707E6E0E65050347961D770 /* Pods */,
+				58DB622E1A5C60F954EA7AAA /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -155,8 +155,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				C7B840935AD54B695B49863D /* libPods-CEMActivityViewController_Example.a */,
-				D43836797D0A093D23E500A4 /* libPods-CEMActivityViewController_Tests.a */,
+				34B9EBF49C8DC0E08016FEDB /* libPods-CEMActivityViewController_Example.a */,
+				A164AD9E173FFDABDF5CB82D /* libPods-CEMActivityViewController_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -224,12 +224,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "CEMActivityViewController_Example" */;
 			buildPhases = (
-				56C7E9E3AF3C47A1577923C0 /* Check Pods Manifest.lock */,
+				A7C35C2B91F69C05F9DBF10A /* 📦 Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				29CF09CEEFDCC65B91E8E523 /* Embed Pods Frameworks */,
-				E0EBF6B3BF58185A517D1A9A /* Copy Pods Resources */,
+				CA4C4C3EC81D76D5D20156DC /* 📦 Embed Pods Frameworks */,
+				2F45941D3125578E41B71890 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,12 +244,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "CEMActivityViewController_Tests" */;
 			buildPhases = (
-				F83E09EA086E9FD2627483E6 /* Check Pods Manifest.lock */,
+				856D53AEA49043232DB5ABB6 /* 📦 Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				5B9C1D35D9A21EC417F74368 /* Embed Pods Frameworks */,
-				CCE08E59557F3DF14C69D7BA /* Copy Pods Resources */,
+				94E5B85A06C60C9877C8AAAD /* 📦 Embed Pods Frameworks */,
+				E3D1267D106F10280CF3D4CD /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -319,74 +319,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		29CF09CEEFDCC65B91E8E523 /* Embed Pods Frameworks */ = {
+		2F45941D3125578E41B71890 /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CEMActivityViewController_Example/Pods-CEMActivityViewController_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		56C7E9E3AF3C47A1577923C0 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		5B9C1D35D9A21EC417F74368 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CEMActivityViewController_Tests/Pods-CEMActivityViewController_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CCE08E59557F3DF14C69D7BA /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CEMActivityViewController_Tests/Pods-CEMActivityViewController_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E0EBF6B3BF58185A517D1A9A /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -394,19 +334,79 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CEMActivityViewController_Example/Pods-CEMActivityViewController_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F83E09EA086E9FD2627483E6 /* Check Pods Manifest.lock */ = {
+		856D53AEA49043232DB5ABB6 /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		94E5B85A06C60C9877C8AAAD /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CEMActivityViewController_Tests/Pods-CEMActivityViewController_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7C35C2B91F69C05F9DBF10A /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CA4C4C3EC81D76D5D20156DC /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CEMActivityViewController_Example/Pods-CEMActivityViewController_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3D1267D106F10280CF3D4CD /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CEMActivityViewController_Tests/Pods-CEMActivityViewController_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -537,7 +537,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC90C1CBE98A13F96E8D4A5D /* Pods-CEMActivityViewController_Example.debug.xcconfig */;
+			baseConfigurationReference = E86D4A4F3E19651A156D8150 /* Pods-CEMActivityViewController_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -569,7 +569,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E984DFEC1FC7A87FE6EFC4AF /* Pods-CEMActivityViewController_Example.release.xcconfig */;
+			baseConfigurationReference = 76F0B49A6B527844E468545C /* Pods-CEMActivityViewController_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -601,7 +601,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC7F5B1FB44E0D005F589A10 /* Pods-CEMActivityViewController_Tests.debug.xcconfig */;
+			baseConfigurationReference = 54D7890C818200E331E43899 /* Pods-CEMActivityViewController_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -625,7 +625,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98C0B0C36C8260D28E5995C1 /* Pods-CEMActivityViewController_Tests.release.xcconfig */;
+			baseConfigurationReference = 8CDD6A1559DA9EC4F98472F9 /* Pods-CEMActivityViewController_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

@@ -1,1 +1,1 @@
-../../../../../Pod/Classes/CEMActivityViewController/CEMMessageActivity.h
+../../../../../Pod/Classes/CEMActivityViewController/Public/CEMMessageActivity.h

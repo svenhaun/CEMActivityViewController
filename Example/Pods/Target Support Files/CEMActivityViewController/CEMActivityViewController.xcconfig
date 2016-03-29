@@ -1,5 +1,8 @@
+CONFIGURATION_BUILD_DIR = $PODS_SHARED_BUILD_DIR/CEMActivityViewController
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/CEMActivityViewController" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/CEMActivityViewController" "${PODS_ROOT}/Headers/Public/TencentOpenApiSDK" "${PODS_ROOT}/Headers/Public/WeiboSDK" "${PODS_ROOT}/Headers/Public/libWeChatSDK"
 OTHER_LDFLAGS = -framework "Foundation" -framework "UIKit"
 PODS_ROOT = ${SRCROOT}
+PODS_SHARED_BUILD_DIR = $(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
 SKIP_INSTALL = YES

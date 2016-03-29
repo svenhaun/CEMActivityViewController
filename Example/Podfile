@@ -1,12 +1,17 @@
 source 'https://github.com/CocoaPods/Specs.git'
 #use_frameworks!
+#install! 'cocoapods',
+#:deterministic_uuids => false,
 
-target 'CEMActivityViewController_Example', :exclusive => true do
+# , :exclusive => true
+target 'CEMActivityViewController_Example' do
+  
   pod 'CEMActivityViewController', :path => '../'
+  
 end
 
-target 'CEMActivityViewController_Tests', :exclusive => true do
-  pod 'CEMActivityViewController', :path => '../'
+target 'CEMActivityViewController_Tests' do
+#  pod 'CEMActivityViewController', :path => '../'
 
 #  pod 'FBSnapshotTestCase'
 end

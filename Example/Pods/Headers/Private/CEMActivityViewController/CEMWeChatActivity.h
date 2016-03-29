@@ -1,1 +1,1 @@
-../../../../../Pod/Classes/CEMActivityViewController/CEMWeChatActivity.h
+../../../../../Pod/Classes/CEMActivityViewController/Public/CEMWeChatActivity.h

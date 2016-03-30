@@ -735,6 +735,21 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0C201D61B9C0BBBF17F1A7F0356CA515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/TencentOpenApiSDK/ResourceBundle-TencentOpenAPI-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = TencentOpenAPI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		20E0AF1BF4344A9AC872EB25FAA84D8C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2DB233F9674BED4F1C4861BE46459292 /* CEMActivityViewController.xcconfig */;
@@ -777,6 +792,21 @@
 			};
 			name = Debug;
 		};
+		525C637DB8604702F3A054377E2DDA82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/TencentOpenApiSDK/ResourceBundle-TencentOpenAPI-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = TencentOpenAPI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		6C181F521FE76F943CDAEB0479B06ECD /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 850F4D4257376A35C4D03B0C82035666 /* Pods-CEMActivityViewController_Example.release.xcconfig */;
@@ -818,22 +848,6 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
-		};
-		916131AFD1F79305BE090279F2705FBB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = $CONFIGURATION_BUILD_DIR/TencentOpenApiSDK;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/TencentOpenApiSDK/ResourceBundle-TencentOpenAPI-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				PRODUCT_NAME = TencentOpenAPI;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
 		};
 		9D7DB8A4348C0BDDD5F59831D7B8B866 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -894,22 +908,6 @@
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		A8A77DF14AF3C39F8BCBECF24DEA46C8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = $CONFIGURATION_BUILD_DIR/TencentOpenApiSDK;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/TencentOpenApiSDK/ResourceBundle-TencentOpenAPI-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				PRODUCT_NAME = TencentOpenAPI;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -977,8 +975,8 @@
 		28D584669087BF86CF977FF21F87BD38 /* Build configuration list for PBXNativeTarget "TencentOpenApiSDK-TencentOpenAPI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A8A77DF14AF3C39F8BCBECF24DEA46C8 /* Debug */,
-				916131AFD1F79305BE090279F2705FBB /* Release */,
+				0C201D61B9C0BBBF17F1A7F0356CA515 /* Debug */,
+				525C637DB8604702F3A054377E2DDA82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

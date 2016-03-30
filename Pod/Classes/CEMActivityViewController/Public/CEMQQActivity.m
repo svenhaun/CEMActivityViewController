@@ -33,7 +33,7 @@
 }
 
 - (BOOL)canPerformWithActivityItems:(NSArray *)activityItems {
-    return YES;
+    return [CEMSocialManager qqInstalled];
 }
 
 - (void)prepareWithActivityItems:(NSArray *)activityItems {
@@ -115,6 +115,8 @@
 }
 
 - (BOOL)canPerformWithActivityItems:(NSArray *)activityItems {
+    if (![CEMSocialManager qqInstalled]) return NO;
+    
     for (NSObject* object in activityItems) {
         if ([object.class isSubclassOfClass:NSURL.class]) {
             return YES;

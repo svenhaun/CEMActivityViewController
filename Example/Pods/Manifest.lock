@@ -1,5 +1,5 @@
 PODS:
-  - CEMActivityViewController (1.1.1):
+  - CEMActivityViewController (1.1.2):
     - libWeChatSDK (~> 1.6)
     - TencentOpenApiSDK/64bit (~> 2.9.5)
     - WeiboSDK (~> 3.1.3)
@@ -15,11 +15,11 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CEMActivityViewController: 833093234902b83bbcde19503b58d3d92604e2d4
+  CEMActivityViewController: 3586cf847559f1a40b2daf26ddee3a3d5c5b4d3a
   libWeChatSDK: 248280c10e6edd275e0efab54ac7ad42a62b6a57
   TencentOpenApiSDK: a0d7716edd6eb438d65828168e8e5137301b436d
   WeiboSDK: acb067053668102cf07d01aa7604350162c2e466
 
-PODFILE CHECKSUM: 6ebe8131a0bb465b2b766f4ecce5f93bdce62992
+PODFILE CHECKSUM: 23ce75416c3fd4b75b97df58223c700ebf4a799a
 
-COCOAPODS: 1.0.0.beta.6
+COCOAPODS: 1.0.0.beta.5

@@ -42,6 +42,7 @@ typedef void (^CEMSocialSendMediaBlock)(CEMSocialErrCode code);
 //
 + (BOOL)winxinInstalled;
 + (BOOL)weiboInstalled;
++ (BOOL)qqInstalled;
 
 //
 + (instancetype)sharedSocialManager;

@@ -105,6 +105,10 @@ QQApiInterfaceDelegate
     return [WeiboSDK isWeiboAppInstalled];
 }
 
++ (BOOL)qqInstalled {
+    return [QQApiInterface isQQInstalled];
+}
+
 + (BOOL)openURL:(NSURL *)url soureApp:(NSString *)bundleId annotation:(id)annotation {
 
     if([TencentOAuth CanHandleOpenURL:url]){

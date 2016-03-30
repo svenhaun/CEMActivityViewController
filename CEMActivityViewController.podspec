@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "CEMActivityViewController"
-  s.version          = "1.1.1"
+  s.version          = "1.1.2"
   s.summary          = "Custom ActivityViewController on iOS"
 
   s.homepage         = "https://github.com/svenhaun/CEMActivityViewController"
@@ -13,9 +13,6 @@ Pod::Spec.new do |s|
     
   s.source_files = 'Pod/Classes/**/*.{h,m}'
   s.resource = "Pod/Resources/Resource.bundle"
-#  s.resource_bundles = {
-#    'Icons' => ['Pod/Resources/Resource.bundle/**/*.png'],
-#  }
 
   s.public_header_files = ['Pod/Classes/CEMActivityViewController/Public/*.h', 'Pod/Classes/CEMSocialPlatformManager/*.h']
   s.private_header_files = 'Pod/Classes/CEMActivityViewController/Private/*.h'
